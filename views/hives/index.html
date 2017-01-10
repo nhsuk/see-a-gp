@@ -1,0 +1,16 @@
+{% extends '_layouts/content-sidebar-flow.nunjucks' %}
+
+{% set title = 'Hives' %}
+{% set intro = 'Hives is an itchy and sometimes painful skin rash usually caused by an allergic reaction. Most hives rashes will go away from within a few minutes to a day. You can treat most hives at home with an antihistamine.' %}
+
+{% block content_sidebar_flow_before %}
+  {% markdown "hives/main-content-before.md" %}
+{% endblock %}
+
+{% block sidebar %}
+  {% markdown "hives/sidebar-content.md" %}
+{% endblock %}
+
+{% block content_sidebar_flow_after %}
+  {% markdown "hives/main-content-after.md" %}
+{% endblock %}

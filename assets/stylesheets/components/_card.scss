@@ -1,0 +1,39 @@
+.card {
+  @include element-spacing(bottom);
+  background-color: tint($blue, 80%);
+  display: inline-block;
+  margin-top: 0;
+  vertical-align: top;
+
+  @include media(tablet) {
+    margin-right: $default-spacing-unit;
+    max-width: 300px;
+  }
+}
+
+.card__caption {
+  margin-top: 0;
+  padding: $default-spacing-unit;
+}
+
+.card--full-width {
+  margin-right: 0;
+  max-width: 40em;
+
+  img {
+    width: 100%;
+  }
+}
+
+.card--image{
+  background-color: tint($grey-4, 50%);
+  border: solid $grey-4;
+  border-width: 0 0 $baseline-grid-unit 0;
+  margin-right: 0px;
+}
+
+
+.card__caption--image p {
+    @extend .font-small;
+    color: $grey-1;
+}
