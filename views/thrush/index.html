@@ -1,0 +1,12 @@
+{% extends '_layouts/content-sidebar-flow.nunjucks' %}
+
+{% set title = 'Thrush' %}
+{% set intro = 'Thrush is a common yeast infection that affects men and women.  Its harmless but it can be uncomfortable and keep coming back.  It isnt classed as a sexually transmitted infection (STI).' %}
+
+{% block content_sidebar_flow_before %}
+  {% markdown "thrush/main-content-before.md" %}
+{% endblock %}
+
+{% block content_sidebar_flow_after %}
+  {% markdown "thrush/main-content-after.md" %}
+{% endblock %}
