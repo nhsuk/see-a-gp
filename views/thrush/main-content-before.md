@@ -15,6 +15,25 @@ Thrush symptoms in men:
 
 Thrush can affect other areas of skin, such as the armpits, groin and between the fingers. This causes a red, itchy or painful rash that scales over with white or yellow discharge.
 
+::: reveal What thrush looks like
+{% block content_sidebar_flow_break %}
+<article>
+  <figure class="card">
+    <img src="/images/thrush/thrush-men_300.jpg" />
+    <figcaption class="card__caption"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="card">
+    <img src="/images/thrush/thrush-women_300.jpg" />
+    <figcaption class="card__caption"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="card">
+    <img src="/images/thrush/thrush-skin_300.jpg" />
+    <figcaption class="card__caption"><p>Thrush on the skin</p></figcaption>
+  </figure>
+</article>
+{% endblock %}
+:::
+
 !!!attention
 ## See a GP or go to a sexual health clinic if:
 
