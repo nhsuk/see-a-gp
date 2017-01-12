@@ -30,7 +30,8 @@
 }
 
 
-.reading-width {
+.reading-width,
+.page-section--simple {
   max-width: 40em;
 }
 

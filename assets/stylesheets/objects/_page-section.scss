@@ -16,3 +16,7 @@
 .page-section--collapse-bottom {
   padding-bottom: 0;
 }
+
+.page-section--simple {
+  @extend .reading-width;
+}
