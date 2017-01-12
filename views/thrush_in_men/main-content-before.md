@@ -1,82 +1,63 @@
 ## Check if you have thrush
 
-Thrush symptoms in women:
-
-*  white discharge (like cottage cheese) which doesn’t usually smell
-*  itching and irritation around the vagina 
-*  soreness and stinging during sex or when you pee
-
-Thrush symptoms in men:
+Thrush symptoms in men include:
 
 * irritation, burning and redness around the head of the penis and under the foreskin
 * a white discharge - it may look like cottage cheese
 * an unpleasant smell
 * difficulty pulling back the foreskin
 
-Thrush can affect other areas of skin, such as the armpits, groin and between the fingers. This causes a red, itchy or painful rash that scales over with white or yellow discharge.
-
 !!!attention
 ## See a GP or go to a sexual health clinic if:
 
-* you have the symptoms of thrush for the first time
-* you’re under 16 or over 60
-* your thrush keeps coming back (more than twice in 6 months)
-* treatment hasn't worked
-* you’re pregnant or breastfeeding
+* you have symptoms of thrush for the first time
+* your thrush keeps coming back
+* your thrush is severe
 * you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
----
-!!!info
-[Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
+
+***
+[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
 !!!
 
-### What happens at your appointment
+!!!warning
+It’s important to get thrush in men diagnosed to rule out a [sexually transmitted infection (STI)](http://www.nhs.uk/Conditions/Sexually-transmitted-infections/Pages/Introduction.aspx) or bacterial infection. 
+!!!
 
-Your GP or sexual health clinic will want to rule out other infections.  
+## What happens at your appointment
+Your GP or sexual health clinic will want to rule out other infections. 
 
 * you'll be asked about your symptoms
-* a doctor or nurse may look at your vagina or penis
-* a cotton bud may be wiped over the discharge to test for other infections
+* a doctor or nurse will look at your penis
+* a cotton bud may be wiped over the skin to test for other infections
 
-You often get the results quicker from a sexual health clinic, typically 1 to 2 days, and around 1 week from you GP practice. 
+The results will take a day or two if you go to a sexual health clinic and around a week if you go to your GP. 
 
-## Thrush treatment
+## Thrush treatment 
 
-You'll need anti-fungal medicine to get rid of thrush. This can be tablet you take, a tablet you insert into your vagina (pessary) or a cream to relieve the irritation. 
-
-Thrush should clear up within a week, after one dose of medicine or using the cream daily. 
-
-You don't need to treat partners, unless they have symptoms. 
-
-### Recurrent thrush
-
-You'll need to take treatment for longer (for up to 6 months) if you keep getting thrush (you get it more than twice in 6 months).  
-
-Your GP or sexual health clinic can help you identify if something is triggering your thrush, such as your period or sex. 
+You'll need anti-fungal medicine to get rid of thrush.  Your GP or sexual health clinic can prescribe an anti-fungal tablet or cream.  
+Your thrush should clear up withing 2 weeks. 
 
 ### Your pharmacist can help with thrush
 
-You can buy anti-fungal medicine from pharmacies if you've had thrush diagnosed in the past and you know the symptoms.  
+If you’ve had thrush in the past and know the symptoms, you can buy anti-fungal treatment from your pharmacy.
 
-Your pharmacist can recommend the best treatment for you.  Ask if they have a private area to talk if you're embarrassed.
+Your pharmacist can recommend the best treatment. Ask if they have a private area to talk if you're embarrassed. 
 
-You shouldn't use antifungal medicine more than twice in 6 months without speaking to your pharmacist or doctor. 
-
-!!!info
-[Find your nearest pharmacy](http//beta.nhs.uk/finders/find-help)
+!!! info
+[Find your nearest pharmacy](https://beta.nhs.uk/finders/find-help) 
 !!!
 
 ### Things you can do yourself
 
-To ease discomfort and to help prevent thrush returning
+To ease discomfort and to help prevent thrush coming back or spreading
 
 <section class="panel panel--binary">
   <article class="panel__column">
     <div class="panel__content">
       <h3>Do</h3>
       <ul class="list--check">
-        <li>wear cotton underwear</a></li>
-        <li>use water and emollient, such as E45 cream, to wash your penis or vagina</li>
-        <li>use a condom or avoid sex until thrush has cleared up</li>
+        <li>wear a condom if you or your partner have thrush</a></li>
+        <li>clean your penis daily with warm water </li>
         <li>take showers instead of baths</li>
         <li>dry your penis properly after washing</li>
       </ul>
@@ -86,28 +67,24 @@ To ease discomfort and to help prevent thrush returning
     <div class="panel__content">
       <h3>Don’t</h3>
       <ul class="list--cross">
-        <li>use soaps or shower gels</li>
-        <li>deodorants or douches on your vagina</li>
-        <li>wear tight underwear or tights</li>
+        <li>use perfumed soaps or shower gels on your genitals</li>
+        <li>wear tight underwear</li>
       </ul>
     </div>
   </article>
 </section>
 
-## What causes thrush
+## What causes thrush in men
 
 Thrush isn't classed as a sexually transmitted infection (STI) but it can be triggered by sex and sometimes passed on through sex. 
 
-Thrush is caused by a fungus called candida that most people have on their skin.  It can develop if the balance of bacteria changes. 
+Thrush is caused by a fungus called candida that most people have on their skin. 
 
-This can happen if:
+It's more likely to develop if:
 
 * your skin is irritated or damaged
 * you’re taking antibiotics 
 * you have a weakened immune system - for example because of HIV or chemotherapy
-* you have poorly controlled diabetes
-* after the menopause
-* when you’re pregnant
 
 
 !!!info
