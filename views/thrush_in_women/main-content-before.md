@@ -19,7 +19,6 @@ Thrush symptoms include:
 [Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
 !!!
 
-
 ### What happens at your appointment
 
 Your GP or sexual health clinic will want to rule out other infections.  
