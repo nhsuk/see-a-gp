@@ -16,7 +16,7 @@ Thrush symptoms include:
 * you’re pregnant or breastfeeding
 !!!
 
-!!!info
+!!!info_compact
 [Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
 !!!
 
