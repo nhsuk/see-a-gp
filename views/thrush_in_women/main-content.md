@@ -14,7 +14,8 @@ Thrush symptoms include:
 * your thrush keeps coming back (more than twice in 6 months)
 * treatment hasn't worked
 * you’re pregnant or breastfeeding
----
+!!!
+
 !!!info
 [Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
 !!!
@@ -52,7 +53,7 @@ Your pharmacist can recommend the best treatment for you.  Ask if they have a pr
 
 You shouldn't use antifungal medicine more than twice in 6 months without speaking to your pharmacist or doctor. 
 
-!!!info
+!!!info_compact
 [Find your nearest pharmacy](http//beta.nhs.uk/finders/find-help)
 !!!
 
@@ -99,9 +100,3 @@ This can happen:
 * if you have poorly controlled diabetes
 * if you have a weak immune system - for example because of HIV or chemotherapy
 * when you take antibiotics
-
-
-!!!info
-## Call 111
-If you can’t speak to your GP or don’t know what to do next.
-!!!

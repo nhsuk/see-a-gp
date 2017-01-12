@@ -14,8 +14,9 @@ Thrush symptoms in men include:
 * your thrush keeps coming back
 * your thrush is severe
 * you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
+!!!
 
-***
+!!! info_compact
 [Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
 !!!
 
@@ -43,7 +44,7 @@ If you’ve had thrush in the past and know the symptoms, you can buy anti-funga
 
 Your pharmacist can recommend the best treatment. Ask if they have a private area to talk if you're embarrassed. 
 
-!!! info
+!!! info_compact
 [Find your nearest pharmacy](https://beta.nhs.uk/finders/find-help) 
 !!!
 
@@ -56,7 +57,7 @@ To ease discomfort and to help prevent thrush coming back or spreading
     <div class="panel__content">
       <h3>Do</h3>
       <ul class="list--check">
-        <li>wear a condom if you or your partner have thrush</a></li>
+        <li>wear a condom if you or your partner have thrush</li>
         <li>clean your penis daily with warm water </li>
         <li>take showers instead of baths</li>
         <li>dry your penis properly after washing</li>
@@ -85,9 +86,3 @@ It's more likely to develop if:
 * your skin is irritated or damaged
 * you’re taking antibiotics 
 * you have a weakened immune system - for example because of HIV or chemotherapy
-
-
-!!!info
-## Call 111
-If you can’t speak to your GP or don’t know what to do next.
-!!!

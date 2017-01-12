@@ -43,8 +43,9 @@ Thrush can affect other areas of skin, such as the armpits, groin and between th
 * treatment hasn't worked
 * you’re pregnant or breastfeeding
 * you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
----
-!!!info
+!!!
+
+!!!info_compact
 [Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
 !!!
 
@@ -80,7 +81,7 @@ Your pharmacist can recommend the best treatment for you.  Ask if they have a pr
 
 You shouldn't use antifungal medicine more than twice in 6 months without speaking to your pharmacist or doctor. 
 
-!!!info
+!!!info_compact
 [Find your nearest pharmacy](http//beta.nhs.uk/finders/find-help)
 !!!
 
@@ -127,9 +128,3 @@ This can happen if:
 * you have poorly controlled diabetes
 * after the menopause
 * when you’re pregnant
-
-
-!!!info
-## Call 111
-If you can’t speak to your GP or don’t know what to do next.
-!!!
