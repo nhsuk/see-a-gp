@@ -13,11 +13,15 @@
       {% endfor %}
     {% endblock %}
 
-    {% block main_content %}
-      {% for component in main %}
-        {{ components[component.type](component.content) }}
-      {% endfor %}
-    {% endblock %}
+    <div class="page-section">
+      <div class="page-section--simple">
+        {% block main_content %}
+          {% for component in main %}
+            {{ components[component.type](component.content) }}
+          {% endfor %}
+        {% endblock %}
+      </div>
+    </div>
 
     {% block main_content_after %}
       {% if guide %}
