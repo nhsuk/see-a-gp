@@ -17,11 +17,11 @@ If your discharge changes (for example, its smell, colour or texture) it might b
 
 | Discharge | Possible cause | 
 | -------- | -------- | -------- |
-| smells fishy     | bacterial vaginosis   | 
-| thick and white (like cottage cheese)     | thrush     | 
-| green or yellow    | [trichomoniasis](http://www.nhs.uk/Conditions/Trichomonas_vaginalis/Pages/Introduction.aspx)      | 
-| with pelvic pain [or bleeding]     | [chlamydia](http://www.nhs.uk/Conditions/chlamydia/Pages/Introduction.aspx) or [gonorrhoea](http://www.nhs.uk/Conditions/Gonorrhoea/Pages/Introduction.aspx)     | 
-| with blisters or sores     | [genital herpes](http://www.nhs.uk/Conditions/genital-herpes/Pages/Introduction.aspx)    |
+| smells fishy | [bacterial vaginosis](/bacterial-vaginosis/) | 
+| thick and white (like cottage cheese) | [thrush](/thrush/) | 
+| green or yellow | [trichomoniasis](http://www.nhs.uk/Conditions/Trichomonas_vaginalis/Pages/Introduction.aspx) | 
+| with pelvic pain [or bleeding] | [chlamydia](http://www.nhs.uk/Conditions/chlamydia/Pages/Introduction.aspx) or [gonorrhoea](http://www.nhs.uk/Conditions/Gonorrhoea/Pages/Introduction.aspx) | 
+| with blisters or sores | [genital herpes](http://www.nhs.uk/Conditions/genital-herpes/Pages/Introduction.aspx) |
 
 !!! attention
 ## See a GP or go to a sexual health clinic if:
@@ -31,9 +31,11 @@ If your discharge changes (for example, its smell, colour or texture) it might b
 * you feel itchy or sore 
 * you bleed between periods or after sex
 * you get a pain when peeing
-* you get pelvic pain (the area between your tummy and thighs)
+* you get pelvic pain (the area between your tummy and thighs) 
+!!!
 
-[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847) 
+!!! info_compact
+[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
 !!!
 
 ## You can't prevent vaginal discharge 
@@ -47,7 +49,7 @@ To help prevent irritation, soreness or dryness:
     <div class="panel__content">
       <h3>Do</h3>
       <ul class="list--check">
-        <li>wash gently </li>
+        <li>wash gently</li>
         <li>use water and an emollient, such as E45 cream, or plain soap</li>
       </ul>
     </div>

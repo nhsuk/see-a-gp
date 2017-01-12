@@ -18,8 +18,8 @@ Some GPs and all sexual health clinics can test for BV. Call your GP first to se
 
 The symptoms of BV are similar to:
 
-- [thrush] 
-- [vaginal discharge]
+- [thrush](/thrush/) 
+- [vaginal discharge](/vaginal-discharge/) 
 :::
 
 ## What happens at your appointment
