@@ -11,7 +11,7 @@ Bacterial vaginosis (BV) doesn't usually cause any soreness or itching.
 Some GPs and all sexual health clinics can test for BV. Call your GP first to see if they can test you.
 
 !!!info_compact
-[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847) 
+[Find a sexual health clinic](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847) 
 !!!
 
 ::: reveal  If you’re unsure it’s bacterial vaginosis

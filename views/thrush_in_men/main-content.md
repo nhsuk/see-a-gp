@@ -17,7 +17,7 @@ Thrush symptoms in men include:
 !!!
 
 !!! info_compact
-[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
+[Find a sexual health clinic](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
 !!!
 
 !!!warning
@@ -45,7 +45,7 @@ If you’ve had thrush in the past and know the symptoms, you can buy anti-funga
 Your pharmacist can recommend the best treatment. Ask if they have a private area to talk if you're embarrassed. 
 
 !!! info_compact
-[Find your nearest pharmacy](https://beta.nhs.uk/finders/find-help) 
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
 !!!
 
 ### Things you can do yourself

@@ -35,7 +35,7 @@ If your discharge changes (for example, its smell, colour or texture) it might b
 !!!
 
 !!! info_compact
-[Find your nearest sexual health service](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
+[Find a sexual health clinic](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847)
 !!!
 
 ## You can't prevent vaginal discharge 

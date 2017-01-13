@@ -46,7 +46,7 @@ Thrush can affect other areas of skin, such as the armpits, groin and between th
 !!!
 
 !!!info_compact
-[Find your nearest sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
+[Find a sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
 !!!
 
 ### What happens at your appointment
@@ -82,7 +82,7 @@ Your pharmacist can recommend the best treatment for you.  Ask if they have a pr
 You shouldn't use antifungal medicine more than twice in 6 months without speaking to your pharmacist or doctor. 
 
 !!!info_compact
-[Find your nearest pharmacy](http//beta.nhs.uk/finders/find-help)
+[Find a pharmacy](http//beta.nhs.uk/finders/find-help)
 !!!
 
 ### Things you can do yourself
