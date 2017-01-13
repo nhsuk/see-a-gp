@@ -14,17 +14,11 @@ Some GPs and all sexual health clinics can test for BV. Call your GP first to se
 [Find a sexual health clinic](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847) 
 !!!
 
-::: reveal  If you’re unsure it’s bacterial vaginosis
-
-The symptoms of BV are similar to:
-
-- [thrush](/thrush/) 
-- [vaginal discharge](/vaginal-discharge/) 
-:::
+If you’re unsure it’s bacterial vaginosis check [vaginal discharge](/vaginal-discharge/).
 
 ## What happens at your appointment
 
-Your GP or sexual health clinic will want confirm it's BV and rule out a sexually transmitted infection (STI). 
+Your GP or sexual health clinic will want to confirm it's BV and rule out a sexually transmitted infection (STI). 
 
 - you'll be asked about your symptoms
 - a doctor or nurse will look at your vagina
@@ -32,11 +26,11 @@ Your GP or sexual health clinic will want confirm it's BV and rule out a sexuall
 
 This won't hurt, but may feel uncomfortable.
 
-The results will take a day or two if you go to a sexual health clinic and around a week if you go to your GP.
+You often get the results quicker from a sexual health clinic, typically 1 to 2 days, and around 1 week from your GP practice.
 
 ## Treatment for bacterial vaginosis
 
-BV is treated with antibiotic tablets, such as metronidazole, or antibiotic gel. 
+BV is treated with antibiotic tablets or gel. 
 
 If you are pregnant, it is safe to use treatment, even in the first 12 weeks.
 
@@ -44,27 +38,17 @@ There are treatments available at supermarkets and pharmacies that help relieve 
 
  Partners don’t need treatment.
  
-### Recurrent bacterial vaginosis
+### Recurring bacterial vaginosis
 
-It's common for BV to return. More than half of women treated for BV find their symptoms return, usually within three months. 
+It's common for BV to come back. More than half of women treated for BV find their symptoms return, usually within 3 months. 
 
-If you keep getting BV you may be referred to a specialist in STIs for further treatment.
+You’ll need to take treatment for longer (for up to 6 months) if you keep getting BV (you get it more than twice in 6 months).
 
-## What causes bacterial vaginosis
-
-Bacterial vaginosis happens when there's a change in the natural balance of bacteria in your vagina. What causes this to happen isn’t fully known.
-
-BV is not an STI, but women who are sexually active and have had a change of partner are more likely to have it, including women in same-sex relationships.
-
-## Bacterial vaginosis in pregnancy
-
-If you develop BV in pregnancy, there is a small risk of complications, such as premature birth or miscarriage. 
-
-However, BV causes no problems in the majority of pregnancies
+Your GP or sexual health clinic can help you identify if something is triggering your BV, such as your period or sex.
 
 ## Things you can do yourself
 
-Avoiding anything that may upset the natural balance of bacteria in the vagina may help.
+To help relieve the symptoms and prevent BV from returning:
 
 <article class="panel panel--binary">
   <section class="panel__column">
@@ -81,12 +65,23 @@ Avoiding anything that may upset the natural balance of bacteria in the vagina m
       <h3>Don’t</h3>
       <ul class="list--cross">
         <li>use perfumed soaps, bubble bath or shower gel</li>
-        <li>use vaginal deodorants or washes</li>
+        <li>use vaginal deodorants, washes or douches</li>
         <li>put antiseptic liquids in the bath</li>
-        <li>douche (rinse with water inside the vagina)</li>
         <li>use strong detergents to wash your underwear</li>
         <li>smoke</li>
       </ul>
     </div>
   </section>
 </article>
+
+## What causes bacterial vaginosis
+
+Bacterial vaginosis happens when there’s a change in the natural balance of bacteria in your vagina. What causes this to happen isn’t fully known.
+
+BV is not classed as an STI, but women who are sexually active and have had a change of partner are more likely to have it, including women in same-sex relationships.
+
+## Bacterial vaginosis in pregnancy
+
+If you develop BV in pregnancy, there’ is a small risk of complications, such as premature birth or miscarriage.
+
+However, BV causes no problems in the majority of pregnancies
