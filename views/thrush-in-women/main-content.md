@@ -6,6 +6,15 @@ Thrush symptoms include:
 *  itching and irritation around the vagina
 *  soreness and stinging during sex or when you pee
 
+If you’re unsure it’s thrush check [vaginal discharge](/vaginal-discharge/).
+
+::: reveal What thrush looks like
+<figure class="card card--full-width">
+  <img src="/images/thrush/thrush-women_640.jpg">
+  <figcaption class="card__caption">Thrush in the vagina</figcaption>
+</figure>
+:::
+
 !!!attention
 ## See a GP or go to a sexual health clinic if:
 

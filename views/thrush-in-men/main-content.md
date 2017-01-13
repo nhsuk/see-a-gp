@@ -7,6 +7,13 @@ Thrush symptoms in men include:
 * an unpleasant smell
 * difficulty pulling back the foreskin
 
+::: reveal What thrush looks like
+<figure class="card card--full-width">
+  <img src="/images/thrush/thrush-men_640.jpg">
+  <figcaption class="card__caption">Thrush on the penis</figcaption>
+</figure>
+:::
+
 !!!attention
 ## See a GP or go to a sexual health clinic if:
 
