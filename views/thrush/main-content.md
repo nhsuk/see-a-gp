@@ -50,6 +50,9 @@ Thrush can affect other areas of skin, such as the armpits, groin and between th
 * you’re pregnant or breastfeeding
 * you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
 !!!
+<section class="panel">
+  <p>This is some content</p>
+</section>
 
 !!!info_compact
 [Find a sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)

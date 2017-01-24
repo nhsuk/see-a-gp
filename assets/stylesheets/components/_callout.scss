@@ -18,7 +18,8 @@
 }
 
 .callout--attention {
-  border: ($baseline-grid-unit * 3) solid tint($light-blue, 25%);
+  border: ($baseline-grid-unit * 1) solid tint($light-blue, 25%);
+  padding: 24px;
 }
 
 .callout--warning {

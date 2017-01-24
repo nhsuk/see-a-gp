@@ -1102,7 +1102,8 @@ strong {
 }
 
 .callout--attention {
-  border: 12px solid #40add7;
+  border: 4px solid #40add7;
+  padding: 24px;
 }
 
 .callout--warning {
