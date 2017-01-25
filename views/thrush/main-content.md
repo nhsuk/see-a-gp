@@ -51,8 +51,14 @@ Thrush can affect other areas of skin, such as the armpits, groin and between th
 * you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
 !!!
 
-!!!info_compact
-[Find a sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
+<section class="servicelink">
+  <h4 ><a href="">Find a Sexual health clinic</a></h4>
+  <p class="font-small">Sexual health clinics treat problems with the genitals and urine system.</p> 
+<p class="font-small">Many sexual health clinics offer a walk-in service, where you don’t need an appointment. They’ll often get test results quicker than GP practices</p>
+</section>
+
+!!!warning
+It’s important to get thrush in men diagnosed to rule out other things like [balanitis](http://www.nhs.uk/Conditions/Balanitis/Pages/Introduction.aspx) or a [sexually transmitted infection (STI)](http://www.nhs.uk/Conditions/Sexually-transmitted-infections/Pages/Introduction.aspx). 
 !!!
 
 ### What happens at your appointment

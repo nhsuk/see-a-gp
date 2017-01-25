@@ -1,0 +1,10 @@
+.servicelink {
+  @include element-padding;
+  background-color: $grey-4;
+  margin-top: 0px;
+  border-bottom: ($baseline-grid-unit * 1) solid tint($light-blue, 25%);
+
+  &:focus {
+    outline: 3px solid $focus-colour;
+  }
+}

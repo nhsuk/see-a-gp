@@ -18,13 +18,14 @@
 }
 
 .callout--attention {
-  border: ($baseline-grid-unit * 3) solid tint($light-blue, 25%);
+  border: ($baseline-grid-unit * 1) solid tint($light-blue, 25%);
+  padding: 24px;
 }
 
 .callout--warning {
-  background-color: tint($yellow, 20);
-  border: solid shade($yellow, 20);
-  border-width: $baseline-grid-unit 0;
+  background-color: $yellow-2;
+  border: solid $yellow;
+  border-width: $baseline-grid-unit 0 0 0;
 }
 
 .callout--alert {
