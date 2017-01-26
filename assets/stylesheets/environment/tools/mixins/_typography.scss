@@ -168,6 +168,12 @@
     @include media(desktop) {
       padding: ($default-spacing-unit * 2) 0;
     }
+  } @else if $type == compact {
+    padding: $default-spacing-unit;
+
+    @include media(desktop) {
+      padding: $default-spacing-unit * 1.5;
+    }
   } @else {
     padding-#{$type}: $default-spacing-unit;
 

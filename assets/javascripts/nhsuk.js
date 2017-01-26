@@ -11,3 +11,17 @@ analytics.init();
 labelFocus.init();
 labelSelect.init();
 tabs.init();
+figureList.init();
+
+var htmlSource = fs.readFileSync("./thrush/index.html", "utf8");
+
+call_jsdom(htmlSource, function (window) {
+    var $ = window.$;
+
+    var title = $("title").text();
+    $("h1").text(title);
+  
+    alert('window');
+  
+    console.log(documentToSource(window.document));
+});
