@@ -13,6 +13,8 @@ labelSelect.init();
 tabs.init();
 figureList.init();
 
+
+
 var htmlSource = fs.readFileSync("./thrush/index.html", "utf8");
 
 call_jsdom(htmlSource, function (window) {

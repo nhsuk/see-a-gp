@@ -1,0 +1,164 @@
+### What thrush looks like
+
+#### Figure list expanded full width
+
+<article class="figure-list figure-list--full-width figure-list--expanded">
+  <figure class="figure-list__figure-1">
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-2">
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-3">
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
+  </figure>
+  <button type="button" class="figure-list__btn">Shrink images</button>
+</article>
+
+#### Figure list expanded grid
+
+<article class="figure-list figure-list--grid figure-list--expanded">
+  <figure class="figure-list__figure-1">
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-2">
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-3">
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
+  </figure>
+  <button type="button" class="figure-list__btn">Shrink images</button>
+</article>
+
+#### Current cards
+
+<article>
+  <figure class="card">
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="card__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="card">
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="card__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="card">
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="card__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
+  </figure>
+</article>
+
+!!!attention
+## See a GP or go to a sexual health clinic if:
+
+* you have the symptoms of thrush for the first time
+* you’re under 16 or over 60
+* your thrush keeps coming back (more than twice in 6 months)
+* treatment hasn't worked
+* you’re pregnant or breastfeeding
+* you have thrush and a weakened immune system - for example because of diabetes, HIV or chemotherapy 
+!!!
+
+<section class="servicelink">
+  <h4 ><a href="">Find a Sexual health clinic</a></h4>
+  <p class="font-small">Sexual health clinics treat problems with the genitals and urine system.</p> 
+<p class="font-small">Many sexual health clinics offer a walk-in service, where you don’t need an appointment. They’ll often get test results quicker than GP practices</p>
+</section>
+
+!!!warning
+It’s important to get thrush in men diagnosed to rule out other things like [balanitis](http://www.nhs.uk/Conditions/Balanitis/Pages/Introduction.aspx) or a [sexually transmitted infection (STI)](http://www.nhs.uk/Conditions/Sexually-transmitted-infections/Pages/Introduction.aspx). 
+!!!
+
+### What happens at your appointment
+
+Your GP or sexual health clinic will want to rule out other infections.  
+
+* you'll be asked about your symptoms
+* a doctor or nurse may look at your vagina or penis
+* a cotton bud may be wiped over the discharge to test for other infections
+
+You often get the results quicker from a sexual health clinic, typically 1 to 2 days, and around 1 week from you GP practice. 
+
+## Thrush treatment
+
+You'll need anti-fungal medicine to get rid of thrush. This can be tablet you take, a tablet you insert into your vagina (pessary) or a cream to relieve the irritation. 
+
+Thrush should clear up within a week, after one dose of medicine or using the cream daily. 
+
+You don't need to treat partners, unless they have symptoms. 
+
+### Recurrent thrush
+
+You'll need to take treatment for longer (for up to 6 months) if you keep getting thrush (you get it more than twice in 6 months).  
+
+Your GP or sexual health clinic can help you identify if something is triggering your thrush, such as your period or sex. 
+
+### Your pharmacist can help with thrush
+
+You can buy anti-fungal medicine from pharmacies if you've had thrush diagnosed in the past and you know the symptoms.  
+
+Your pharmacist can recommend the best treatment for you.  Ask if they have a private area to talk if you're embarrassed.
+
+You shouldn't use antifungal medicine more than twice in 6 months without speaking to your pharmacist or doctor. 
+
+!!!info_compact
+[Find a pharmacy](http//beta.nhs.uk/finders/find-help)
+!!!
+
+### Things you can do yourself
+
+To ease discomfort and to help prevent thrush returning
+
+<section class="panel panel--binary">
+  <article class="panel__column">
+    <div class="panel__content">
+      <h3>Do</h3>
+      <ul class="list--check">
+        <li>wear cotton underwear</a></li>
+        <li>use water and emollient, such as E45 cream, to wash your penis or vagina</li>
+        <li>use a condom or avoid sex until thrush has cleared up</li>
+        <li>take showers instead of baths</li>
+        <li>dry your penis properly after washing</li>
+      </ul>
+    </div>
+  </article>
+  <article class="panel__column">
+    <div class="panel__content">
+      <h3>Don’t</h3>
+      <ul class="list--cross">
+        <li>use soaps or shower gels</li>
+        <li>deodorants or douches on your vagina</li>
+        <li>wear tight underwear or tights</li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+## What causes thrush
+
+Thrush isn't classed as a sexually transmitted infection (STI) but it can be triggered by sex and sometimes passed on through sex. 
+
+Thrush is caused by a fungus called candida that most people have on their skin.  It can develop if the balance of bacteria changes. 
+
+This can happen if:
+
+* your skin is irritated or damaged
+* you’re taking antibiotics 
+* you have a weakened immune system - for example because of HIV or chemotherapy
+* you have poorly controlled diabetes
+* after the menopause
+* when you’re pregnant
