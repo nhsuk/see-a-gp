@@ -41,7 +41,7 @@
   display: block;
 }
 
-.util-visuallyhidden, .js-enabled .selection-button__input, .js-enabled .tabs__tab-heading {
+.util-visuallyhidden, [class*="figure-list--preview"] .figure-list__caption, .js-enabled .selection-button__input, .js-enabled .tabs__tab-heading {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -1208,7 +1208,7 @@ strong {
   border-color: #d81e05;
 }
 
-[class|=figure-list__figure] {
+[class*="figure-list__figure"] {
   margin-top: 0;
 }
 
@@ -1289,7 +1289,7 @@ strong {
   color: #425563;
 }
 
-.figure-list--full-width [class|=figure-list__figure]:last-of-type {
+.figure-list--full-width [class*="figure-list__figure"]:last-of-type {
   margin-bottom: 16px;
   border-bottom: 4px solid #d9e1e2;
 }
@@ -1306,12 +1306,12 @@ strong {
   }
 }
 
-.figure-list--grid [class|=figure-list__figure] {
+.figure-list--grid [class*="figure-list__figure"] {
   margin-bottom: 16px;
 }
 
 @media (min-width: 641px) {
-  .figure-list--grid [class|=figure-list__figure] {
+  .figure-list--grid [class*="figure-list__figure"] {
     padding: 0 8px;
     max-width: 50%;
   }
@@ -1326,6 +1326,47 @@ strong {
     margin: 0 8px 16px auto;
     align-self: flex-end;
   }
+}
+
+[class*="figure-list--preview"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+[class*="figure-list--preview"] [class*="figure-list__figure"] {
+  margin-bottom: 8px;
+  padding: 0 4px;
+  max-width: 50%;
+}
+
+[class*="figure-list--preview"] .figure-list__btn {
+  margin: 0 8px 8px auto;
+  align-self: flex-end;
+}
+
+.figure-list--preview-3 {
+  flex-direction: column;
+  height: 300px;
+}
+
+.figure-list--preview-3 [class*="figure-list__figure"] {
+  height: 50%;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.figure-list--preview-3 [class*="figure-list__figure"] img {
+  max-height: 100%;
+}
+
+.figure-list--preview-3 .figure-list__figure-1 {
+  max-width: none;
+  height: 100%;
 }
 
 .global-header {
