@@ -1,0 +1,9 @@
+{% extends '_layouts/content-simple.nunjucks' %}
+
+{% set title = 'Urinary tract infections (UTIs)' %}
+{% set intro = 'Urinary tract infections (UTIs) include cystitis (bladder infections), urethritis and kidney infections. Most UTIs pass within a few days but kidney infections are more severe. All UTIs can be easily treated with antibiotics.' %}
+{% set nonEmergencyCallout = 'true' %}
+
+{% block main_content %}
+  {% markdown "uti/main-content.md" %}
+{% endblock %}
