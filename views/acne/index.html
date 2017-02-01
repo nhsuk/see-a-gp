@@ -1,0 +1,9 @@
+{% extends '_layouts/content-simple.nunjucks' %}
+
+{% set title = 'Acne' %}
+{% set intro = 'Acne is a common skin condition that affects almost everybody at some point in their lives. Acne mostly affects teenagers but adults can develop it too.' %}
+{% set nonEmergencyCallout = 'true' %}
+
+{% block main_content %}
+  {% markdown "acne/main-content.md" %}
+{% endblock %}
