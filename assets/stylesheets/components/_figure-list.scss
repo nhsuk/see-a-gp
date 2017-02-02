@@ -23,8 +23,8 @@
   @include core-font(16);
   width: auto;
   float: right;
-  background: $grey-4;
-  color: $grey-2;
+  background: $button-background;
+  color: $white;
   margin-right: 0;
   padding: ($baseline-grid-unit * 3) ($baseline-grid-unit * 4);
   
@@ -36,8 +36,7 @@
   &:hover,
   &:focus,
   &:visited {
-    background-color: $grey-3;
-    color: $grey-1;
+    background-color: $green;
   }
 }
 

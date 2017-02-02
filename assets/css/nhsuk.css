@@ -1307,8 +1307,8 @@ strong {
   text-transform: none;
   width: auto;
   float: right;
-  background: #eff1f2;
-  color: #768692;
+  background: #008a40;
+  color: #fff;
   margin-right: 0;
   padding: 12px 16px;
 }
@@ -1334,8 +1334,7 @@ strong {
 }
 
 .figure-list__btn:link, .figure-list__btn:hover, .figure-list__btn:focus, .figure-list__btn:visited {
-  background-color: #d9e1e2;
-  color: #425563;
+  background-color: #009e49;
 }
 
 .figure-list--full-width [class*="figure-list__figure"]:last-of-type {
