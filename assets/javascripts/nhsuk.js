@@ -13,6 +13,3 @@ labelSelect.init();
 tabs.init();
 
 require('./prototype');
-
-
-
