@@ -30,6 +30,27 @@
         {% endfor %}
         </ul>
       {% endif %}
+      
+      {% if guide_pages %}
+      
+        {% set breakpoint = (guide_pages / 2) | round(0, 'ceil') %}
+        
+        <nav role="navigation" aria-label="Parts to this guide" class="link-list__row">
+        
+          <ol class="link-list link-list--one-half link-list--numbered">
+          {% for item, href in guide_pages_1 %}
+            <li class="link-list--item"><a class="link--reverse-polarity" href="/{{ guide_parent }}{{ href }}">{{ item }}</a></li>
+          {% endfor %}
+          </ol>
+          <ol class="link-list link-list--one-half link-list--numbered" start="{{ breakpoint }}">
+          {% for item, href in guide_pages_2 %}
+            <li class="link-list--item"><a class="link--reverse-polarity" href="/{{ guide_parent }}{{ href }}">{{ item }}</a></li>
+          {% endfor %}
+          </ol>
+          
+        </nav>
+          
+      {% endif %}
 
     </div>
   {% endif %}
