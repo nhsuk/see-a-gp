@@ -39,12 +39,12 @@
         
           <ol class="link-list link-list--one-half link-list--numbered">
           {% for item, href in guide_pages_1 %}
-            <li class="link-list--item"><a class="link--reverse-polarity" href="{{ href }}">{{ item }}</a></li>
+            <li class="link-list--item"><a class="link--reverse-polarity" href="/{{ guide_parent }}{{ href }}">{{ item }}</a></li>
           {% endfor %}
           </ol>
           <ol class="link-list link-list--one-half link-list--numbered" start="{{ breakpoint }}">
           {% for item, href in guide_pages_2 %}
-            <li class="link-list--item"><a class="link--reverse-polarity" href="{{ href }}">{{ item }}</a></li>
+            <li class="link-list--item"><a class="link--reverse-polarity" href="/{{ guide_parent }}{{ href }}">{{ item }}</a></li>
           {% endfor %}
           </ol>
           

@@ -24,13 +24,17 @@ ol {
 
 dl {
   @include core-font(20);
+  
+  dt {
+    @include bold-font(20);
+  }
 }
 
 .local-header,
 .page-section,
 .global-footer {
-  li {
-    + li {
+  li, dd, dt, {
+    + li, + dd {
       margin-top: $baseline-grid-unit * 2;
     }
 

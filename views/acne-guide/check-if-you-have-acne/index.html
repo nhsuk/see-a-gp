@@ -1,0 +1,14 @@
+{% extends '_layouts/content-simple.nunjucks' %}
+
+{% set title = 'Acne' %}
+{% set intro = 'Acne is a common skin condition that affects almost everybody at some point in their lives. Acne mostly affects teenagers but adults can develop it too.' %}
+
+{% set guide_parent = 'acne-guide' %}
+{% set guide_pages = '7' %}
+
+{% set guide_pages_1 = { 'Check if you have acne': '/check-if-you-have-acne/', 'How to treat acne yourself': '/how-to-treat-acne-yourself/', 'When to see your GP': '/when-to-see-your-gp/' } %}
+{% set guide_pages_2 = { 'Understanding medication': '/understanding-medication/', 'Getting further treatment': '/further-treatment/', 'What causes acne': '/what-causes-acne/', 'Finding help and support': '/finding-help-and-support/' } %}
+
+{% block main_content %}
+  {% markdown "acne-guide/check-if-you-have-acne/main-content.md" %}
+{% endblock %}
