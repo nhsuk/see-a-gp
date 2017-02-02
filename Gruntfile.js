@@ -1,10 +1,9 @@
-module.exports = function(grunt) {
-
+module.exports = function(grunt) {  
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    clean: ['assets/css'],
+    clean: ['assets/css', 'build/assets'],
 
     env : {
       heroku : {
@@ -36,11 +35,19 @@ module.exports = function(grunt) {
         }
       }
     },
+    
+    webpack: {
+      dist: require('./webpack.config.js')
+    },
 
     watch: {
 			css: {
 				files: ['assets/stylesheets/**/*.scss'],
 				tasks: ['sass']
+			},
+      js: {
+				files: ['assets/javascripts/**/*.js'],
+				tasks: ['webpack']
 			}
 		},
 
@@ -61,10 +68,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-env');
+  grunt.loadNpmTasks('grunt-webpack');
 
   grunt.registerTask('generate-assets', [
     'clean',
-    'sass'
+    'sass',
+    'webpack'
   ]);
 
   grunt.registerTask('default', [

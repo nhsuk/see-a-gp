@@ -25,6 +25,7 @@ app.set('views', viewsPath);
 
 app.use(express.static('static'));
 app.use(express.static('assets'));
+app.use(express.static('build'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(validator()); // this line must be immediately after express.bodyParser()!
 

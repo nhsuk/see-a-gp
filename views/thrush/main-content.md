@@ -21,24 +21,69 @@ Thrush symptoms in men:
 
 Thrush can affect other areas of skin, such as the armpits, groin and between the fingers. This causes a red, itchy or painful rash that scales over with white or yellow discharge.
 
-::: reveal What thrush looks like
-{% block content_sidebar_flow_break %}
+### What thrush looks like
+
+#### Figure list expanded full width
+
+<article class="figure-list figure-list--full-width figure-list--expanded">
+  <figure class="figure-list__figure-1">
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-2">
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-3">
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
+  </figure>
+  <button type="button" class="figure-list__btn">Shrink images</button>
+</article>
+
+#### Figure list expanded grid
+
+<article class="figure-list figure-list--grid figure-list--expanded">
+  <figure class="figure-list__figure-1">
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-2">
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="figure-list__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
+  </figure>
+  <figure class="figure-list__figure-3">
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
+  </figure>
+  <button type="button" class="figure-list__btn">Shrink images</button>
+</article>
+
+#### Current cards
+
 <article>
   <figure class="card">
-    <img src="/images/thrush/thrush-men_300.jpg" />
-    <figcaption class="card__caption"><p>Thrush in men</p></figcaption>
+    <!--<img src="/images/thrush/thrush-men_300.jpg" />-->
+    <img src="http://placekitten.com/1500/1000" />
+    <figcaption class="card__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
   </figure>
   <figure class="card">
-    <img src="/images/thrush/thrush-women_300.jpg" />
-    <figcaption class="card__caption"><p>Thrush in the vagina</p></figcaption>
+    <!--<img src="/images/thrush/thrush-women_300.jpg" />-->
+    <img src="http://placekitten.com/1200/800" />
+    <figcaption class="card__caption" data-caption="Thrush in the vagina"><p>Thrush in the vagina</p></figcaption>
   </figure>
   <figure class="card">
-    <img src="/images/thrush/thrush-skin_300.jpg" />
-    <figcaption class="card__caption"><p>Thrush on the skin</p></figcaption>
+    <!--<img src="/images/thrush/thrush-skin_300.jpg" />-->
+    <img src="http://placekitten.com/900/600" />
+    <figcaption class="card__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
   </figure>
 </article>
-{% endblock %}
-:::
 
 !!!attention
 ## See a GP or go to a sexual health clinic if:

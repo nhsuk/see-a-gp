@@ -11,3 +11,5 @@ analytics.init();
 labelFocus.init();
 labelSelect.init();
 tabs.init();
+
+require('./prototype');
