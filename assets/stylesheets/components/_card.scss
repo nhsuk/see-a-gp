@@ -1,14 +1,20 @@
 .card {
   @include element-spacing(bottom);
-  background-color: tint($blue, 80%);
+  background-color: $grey-4;
   display: inline-block;
   margin-top: 0;
   vertical-align: top;
+  border-bottom: 4px solid $grey-3;
 
   @include media(tablet) {
     margin-right: $default-spacing-unit;
     max-width: 300px;
   }
+}
+
+.card__caption,
+.card__caption * {
+  @include core-font(16);
 }
 
 .card__caption {
