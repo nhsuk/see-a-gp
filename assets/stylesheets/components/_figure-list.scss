@@ -1,20 +1,48 @@
+// BLOCK
+
 .figure-list {
   @extend %clearfix;
+  
+  &.is-collapsed {
+    
+    .figure-list__caption {
+      @extend %visuallyhidden;
+    }
+    
+    .figure-list__btn {
+      margin-top: $default-spacing-unit;
+    }
+    
+  }
 }
+
+// ELEMENTS
 
 [class*="figure-list__figure"]{
   margin-top: 0;
 }
 
 .figure-list__caption, 
-.figure-list__caption * {
+.figure-list__caption *,
+.figure-list__captions, 
+.figure-list__captions * {
   @include core-font(16);
 }
 
-.figure-list__caption {
+.figure-list__caption,
+.figure-list__captions {
   margin-top: 0;
   @include element-padding(compact);
   background: $grey-4;
+}
+
+.figure-list__captions {
+  border-bottom: 4px $grey-3 solid;
+  padding-left: ($default-spacing-unit * 2);
+  
+  @include media(tablet) {
+    padding-left: ($default-spacing-unit * 2.5);
+  }
 }
 
 .figure-list__btn {
@@ -40,6 +68,10 @@
   }
 }
 
+// MODIFIERS
+
+// Basic expanded layout for backwards compatibility
+
 .figure-list--full-width {
   
  [class*="figure-list__figure"]{
@@ -49,6 +81,8 @@
     }
   } 
 }
+
+// Enhanced expanded layout with flexbox
 
 .figure-list--grid {
   
@@ -74,61 +108,13 @@
   .figure-list__caption {
     border-bottom: 4px $grey-3 solid;
   }
-  
-  .figure-list__btn {
-    @include media(tablet){
-      margin: 0 ($default-spacing-unit / 2) $default-spacing-unit auto;
-      align-self: flex-end;
-    }
-  }
 }
 
-// Defaults to 2 column grid
-[class*="figure-list--preview"] {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: ($default-spacing-unit / -4);
-  margin-right: ($default-spacing-unit / -4);
-  align-items: flex-start;
-  justify-content: space-between;
+// Preview single image
+
+.figure-list--preview {
   
-  [class*="figure-list__figure"]{
-    margin-bottom: ($default-spacing-unit / 2);
-    padding: 0 ($default-spacing-unit / 4);
-    max-width: 50%;
-  }
-  
-  .figure-list__caption {
-    @extend %visuallyhidden;
-  }
-  
-  .figure-list__btn {
-    margin: 0 ($default-spacing-unit / 2) ($default-spacing-unit / 2) auto;
-    align-self: flex-end;
-  }
 }
 
-// x3 thumbnails
-.figure-list--preview-3 {
-  flex-direction: column;
-  height: 300px;
-  //flex-wrap: nowrap;
-  
-  [class*="figure-list__figure"]{
-    height: 50%;
-    margin-bottom: 0;
-    padding-bottom: ($default-spacing-unit / 2);
-    
-    img {
-      max-height: 100%;
-    }
-  }
-  
-  .figure-list__figure-1 {
-    max-width: none;
-    height: 100%;
-    //flex-grow: 2;
-  }
-}
+
 
