@@ -1,8 +1,8 @@
 #### Figure list collapsed x3
 
-<article class="figure-list is-collapsed">
-  <div class="figure-list--preview">
-    <figure class="figure-list__figure">
+<article class="figure-list is-collapsed is-grid">
+  <div class="figure-list__body figure-list--preview">
+    <figure class="figure-list__figure figure-list--preview">
       <img src="http://placekitten.com/1500/1000" />
       <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
     </figure>
@@ -20,8 +20,8 @@
 
 #### Figure list expanded full width
 
-<article class="figure-list is-expanded">
-  <div class="figure-list--full-width">
+<article class="figure-list is-collapsed is-full-width">
+  <div class="figure-list__body figure-list--preview">
     <figure class="figure-list__figure">
       <img src="http://placekitten.com/1500/1000" />
       <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
@@ -35,13 +35,13 @@
       <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
     </figure>
   </div>
-  <button type="button" class="figure-list__btn">Shrink images</button>
+  <button type="button" class="figure-list__btn">Expand images</button>
 </article>
 
 #### Figure list expanded grid (odd)
 
-<article class="figure-list is-expanded">
-  <div class="figure-list--grid is-odd">
+<article class="figure-list is-collapsed is-grid">
+  <div class="figure-list__body figure-list--preview">
     <figure class="figure-list__figure">
       <img src="http://placekitten.com/1500/1000" />
       <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
@@ -55,13 +55,13 @@
       <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
     </figure>
   </div>
-  <button type="button" class="figure-list__btn">Shrink images</button>
+  <button type="button" class="figure-list__btn">Expand images</button>
 </article>
 
 #### Figure list expanded grid (even)
 
-<article class="figure-list is-expanded">
-  <div class="figure-list--grid is-even">
+<article class="figure-list is-collapsed is-grid">
+  <div class="figure-list__body figure-list--preview">
     <figure class="figure-list__figure">
       <img src="http://placekitten.com/1500/1000" />
       <figcaption class="figure-list__caption" data-caption="Thrush in men"><p>Thrush in men</p></figcaption>
@@ -79,7 +79,7 @@
       <figcaption class="figure-list__caption" data-caption="Thrush on the skin"><p>Thrush on the skin</p></figcaption>
     </figure>
   </div>
-  <button type="button" class="figure-list__btn">Shrink images</button>
+  <button type="button" class="figure-list__btn">Expand images</button>
 </article>
 
 #### Cards (for reference)
