@@ -1451,6 +1451,10 @@ strong {
   margin-top: 0;
 }
 
+.is-tabbed .figure-list--preview {
+  border-bottom: none;
+}
+
 .global-header {
   background-color: #fff;
   border-bottom: 2px solid #0072c6;
@@ -2195,16 +2199,16 @@ table.panel th, .panel.table--compare th {
 .tabs__nav {
   display: flex;
   flex-direction: row;
-  background: #d9e1e2;
-  border: solid #aeb4b5;
+  background: #eff1f2;
   border-width: 0;
+  border-bottom: 4px solid #d9e1e2;
   margin-top: 0;
   padding: 0;
 }
 
 .tabs__nav-item {
-  border: solid #aeb4b5;
   border-width: 0;
+  border-right: 1px solid #d9e1e2;
   display: block;
   float: left;
   margin: 0;
@@ -2217,7 +2221,7 @@ table.panel th, .panel.table--compare th {
 }
 
 .tabs__nav-link {
-  background-color: #d9e1e2;
+  background-color: #eff1f2;
   display: block;
   margin: 0;
   padding: 16px 16px;
@@ -2225,7 +2229,7 @@ table.panel th, .panel.table--compare th {
 }
 
 .tabs__nav-link:hover {
-  background-color: #eff1f2;
+  background-color: #d9e1e2;
   color: #0072c6;
 }
 

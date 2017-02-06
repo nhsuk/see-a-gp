@@ -11921,6 +11921,8 @@
 	
 	    console.log(captionList);
 	  });
+	
+	  $('.tabs').tabs();
 	});
 
 /***/ }

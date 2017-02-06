@@ -86,6 +86,8 @@ $(document).ready(function(){
     console.log(captionList);
 
   });
+  
+  $('.tabs').tabs();
 
 });
 
