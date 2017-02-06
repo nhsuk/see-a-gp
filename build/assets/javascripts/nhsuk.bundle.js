@@ -11917,12 +11917,10 @@
 	
 	    // Test
 	
-	    console.log("Figure list " + (i + 1) + " has " + figureLength + " images");
+	    //    console.log("Figure list " + (i+1) + " has " + figureLength + " images");
 	
-	    console.log(captionList);
+	    //    console.log(rcaptionList);
 	  });
-	
-	  $('.tabs').tabs();
 	});
 
 /***/ }

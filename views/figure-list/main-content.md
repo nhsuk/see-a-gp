@@ -3,7 +3,7 @@
 <article class="figure-list is-collapsed is-tabbed no-captions">
   <div class="tabs js-tabs">
     <div class="tab-container js-tabs-content tabs-body">
-      <section class="tabs__tab js-tab-pane tabs-panel is-active" id="mild">
+      <div class="tabs__tab js-tab-pane tabs-panel is-active" id="mild">
         <h4 class="figure-list__tab-heading">Mild acne</h4>
         <div class="figure-list__body figure-list--preview">
           <div class="figure-list--col two-thirds">
@@ -20,25 +20,26 @@
             </figure>
           </div>
         </div>
-      </section>
-      <section class="tabs__tab js-tab-pane tabs-panel" id="moderate">
+      </div>
+      <div class="tabs__tab js-tab-pane tabs-panel" id="moderate">
         <h4 class="figure-list__tab-heading">Moderate acne</h4>
         <div class="figure-list__body figure-list--preview">
-          <figure class="figure-list__figure">
-            <img src="http://placekitten.com/1500/1000" />
-          </figure>
-          <figure class="figure-list__figure">
-            <img src="http://placekitten.com/1200/800" />
-          </figure>
-          <figure class="figure-list__figure">
-            <img src="http://placekitten.com/900/600" />
-          </figure>
-          <figure class="figure-list__figure">
-            <img src="http://placekitten.com/900/600" />
-          </figure>
+          <div class="figure-list--col one-third">
+            <figure class="figure-list__figure">
+              <img src="http://placekitten.com/1500/1000" />
+            </figure>
+            <figure class="figure-list__figure">
+              <img src="http://placekitten.com/1200/800" />
+            </figure>
+          </div>
+          <div class="figure-list--col two-thirds">
+            <figure class="figure-list__figure">
+              <img src="http://placekitten.com/900/600" />
+            </figure>
+          </div>
         </div>
-      </section>
-      <section class="tabs__tab js-tab-pane tabs-panel" id="severe">
+      </div>
+      <div class="tabs__tab js-tab-pane tabs-panel" id="severe">
         <h4 class="figure-list__tab-heading">Severe acne</h4>
         <div class="figure-list__body figure-list--preview">
           <div class="figure-list--col two-thirds">
@@ -55,9 +56,9 @@
             </figure>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-    <ul class="tabs__nav">
+    <ul class="tabs__nav js-tabs-nav">
       <li class="tabs__nav-item is-active"><a class="tabs__nav-link" href="#mild">Mild acne</a></li>
       <li class="tabs__nav-item"><a class="tabs__nav-link" href="#moderate">Moderate acne</a></li>
       <li class="tabs__nav-item"><a class="tabs__nav-link" href="#severe">Severe acne</a></li>

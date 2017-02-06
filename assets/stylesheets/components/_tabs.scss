@@ -77,7 +77,7 @@ $_border-colour: shade($grey-3, 20);
   }
 
 // scss-lint:disable SelectorFormat
-.js-enabled .js-tabs-content > div {
+.js-enabled .js-tabs-content > * {
   display: none;
 
   &.is-active {

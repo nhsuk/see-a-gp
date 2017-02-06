@@ -2249,11 +2249,11 @@ table.panel th, .panel.table--compare th {
   text-decoration: none;
 }
 
-.js-enabled .js-tabs-content > div {
+.js-enabled .js-tabs-content > * {
   display: none;
 }
 
-.js-enabled .js-tabs-content > div.is-active {
+.js-enabled .js-tabs-content > *.is-active {
   display: block;
 }
 
