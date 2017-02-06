@@ -1258,10 +1258,6 @@ strong {
   border-color: #d81e05;
 }
 
-.figure-list .tabs__nav {
-  display: none;
-}
-
 .figure-list.is-collapsed .figure-list__captions,
 .figure-list.is-collapsed .tabs__nav {
   display: block;
@@ -1273,6 +1269,12 @@ strong {
 
 .figure-list.is-collapsed.no-captions [class*="figure-list__figure"] {
   margin-top: 0;
+}
+
+.figure-list__body,
+.figure-list--col,
+[class*="figure-list__figure"] {
+  margin-top: 16px;
 }
 
 .figure-list__caption,

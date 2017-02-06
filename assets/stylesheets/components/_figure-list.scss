@@ -3,10 +3,6 @@
 .figure-list {
   @extend %clearfix;
   
-  .tabs__nav {
-    display: none;
-  }
-  
   &.is-collapsed {
     
     .figure-list__caption,
@@ -18,7 +14,7 @@
     .tabs__nav {
       display: block;
     }
-
+    
     &.no-captions {
       .figure-list__captions {
         display: none;
@@ -28,9 +24,18 @@
       }
     }
   }
+  
+  
 }
 
 // ELEMENTS
+
+.figure-list__body,
+.figure-list--col,
+[class*="figure-list__figure"] {
+  margin-top: $default-spacing-unit;
+}
+
 
 .figure-list__caption, 
 .figure-list__caption *,
