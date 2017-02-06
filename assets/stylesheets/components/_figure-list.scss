@@ -3,13 +3,19 @@
 .figure-list {
   @extend %clearfix;
   
+  .tabs__nav {
+    display: none;
+  }
+  
   &.is-collapsed {
     
-    .figure-list__caption {
+    .figure-list__caption,
+    .figure-list__tab-heading {
       @extend %visuallyhidden;
     }
     
-    .figure-list__captions {
+    .figure-list__captions,
+    .tabs__nav {
       display: block;
     }
 
@@ -26,18 +32,6 @@
 
 // ELEMENTS
 
-[class*="figure-list__figure"]{
-  margin-top: 0;
-  
-  &:last-child .figure-list__caption {
-    border-bottom: 4px solid $grey-3;
-  }
-  
-  .no-captions & {
-    margin-top: $default-spacing-unit;
-  }
-}
-
 .figure-list__caption, 
 .figure-list__caption *,
 .figure-list__captions, 
@@ -50,11 +44,11 @@
   margin-top: 0;
   @include element-padding(compact);
   background: $grey-4;
+  border-bottom: 4px solid $grey-3;
 }
 
 .figure-list__captions {
   padding-left: ($default-spacing-unit * 2);
-  border-bottom: 4px solid $grey-3;
   
   @include media(tablet) {
     padding-left: ($default-spacing-unit * 2.5);
@@ -137,13 +131,30 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  //margin-left: ($default-spacing-unit / -2);
-  //margin-right: ($default-spacing-unit / -2);
-  align-items: flex-start;
-  justify-content: space-between;
   
   [class*="figure-list__figure"]{
+    margin-top: 0;
     max-width: 50%;
+  }
+  
+  .figure-list--col {
+    margin-top: 0;
+
+    &.one-third {
+      width: 33.33%;
+    }
+
+    &.two-thirds {
+      width: 66.67%;
+    }
+    
+    &.three-thirds {
+      width: 100%;
+    }
+    
+    [class*="figure-list__figure"]{
+      max-width: 100%;
+    }
   }
   
   .no-captions & {

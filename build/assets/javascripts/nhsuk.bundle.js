@@ -11848,7 +11848,8 @@
 	    e.preventDefault();
 	
 	    $(this).parent(".figure-list").toggleClass("is-collapsed");
-	    //$(this).parent(".figure-list").toggleClass("is-expanded");
+	    $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
+	    $(this).siblings(".tabs").find(".figure-list__body").toggleClass("figure-list--preview");
 	
 	    // Change button label on toggle
 	
@@ -11866,23 +11867,21 @@
 	
 	    var getLayout = $(this).parent(".figure-list");
 	
-	    if (getLayout.hasClass("is-grid") == true) {
-	      $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	      $(this).siblings(".figure-list__body").toggleClass("figure-list--grid");
-	      console.log("grid");
-	    } else if (getLayout.hasClass("is-full-width") == true) {
-	      $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	      console.log("full width");
-	    }
+	    //if ( getLayout.hasClass("is-grid") == true ) {
+	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
+	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--grid");
+	    //console.log("grid");
+	    //} else if ( getLayout.hasClass("is-full-width") == true ) {
+	    // $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
+	    // console.log("full width");
+	    //}
 	  });
 	
 	  // Count and add numeric classes to each figure list and child figures
 	
 	  $(".figure-list").each(function (i) {
 	
-	    // This needs to run before the class is changed in the second part of this function 
-	
-	    var figureLength = $(this).find(".figure-list__figure").length;
+	    var figureLength = $(this).find("figure").length;
 	    var figureListClass = "has-" + figureLength;
 	
 	    // Add .has-n to .figure-list
@@ -11923,23 +11922,6 @@
 	    console.log(captionList);
 	  });
 	});
-	
-	// Make list from captions 
-	
-	function captionList() {}
-	
-	// Add leading zero to numbers > 10
-	
-	function addZero(i) {
-	
-	  if (i >= 9) {
-	    var n = i + 1;
-	  } else {
-	    var n = "0" + (i + 1);
-	  }
-	
-	  return n;
-	}
 
 /***/ }
 /******/ ]);
