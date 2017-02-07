@@ -1,14 +1,15 @@
 ## Check if it’s acne
 
-Acne can be painful and can affect your self confidence and mental health.
+Usually you get acne on your:
 
-Acne affects people mostly on their:
-face
-back 
-chest 
-shoulders
+- face
+- back 
+- chest 
+- shoulders
 
-### Types of acne
+You’ll see spots like whiteheads, blackheads or bigger lumps filled with puss.
+
+### How serious is my acne?
 
 <article class="figure-list is-collapsed is-tabbed no-captions">
   <div class="tabs js-tabs">

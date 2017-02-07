@@ -1,100 +1,102 @@
-## Your pharmacist can help with mild acne
+## Check if it’s acne {id="check"}
 
-If you have mild acne you can try over-the-counter (OTC) creams or gels with benzoyl peroxide. 
+Usually you get acne on your:
 
-Benzoyl peroxide is an antiseptic that reduces the number of bacteria on the surface of the skin. It helps to reduce the number of whiteheads and blackhead and has an anti-inflammatory effect.
+- face
+- back 
+- chest 
+- shoulders
 
-It should be used sparingly, as too much can irritate your skin.
+You’ll have spots like whiteheads, blackheads or bigger lumps. How serious your acne is depends on how many spots you have: 
 
-Benzoyl peroxide is the only over-the-counter treatment proven to be effective. You can buy products that contain benzoyl peroxide in supermarkets and pharmacies.  
+Acne mostly affects teenagers but adults can develop it too. 
 
-There is little proof that other OTC creams and gels that don’t have benzoyl peroxide help to treat mild acne.
+## How serious is my acne?
 
-!!! info_compact
-[Find your nearest pharmacy](https://beta.nhs.uk/finders/find-help) 
-!!!
+**Mild acne** - small spots with blackheads or whiteheads. Affects most people at some point in their lives.
 
-!!!attention
-## See a GP if:
+<article class="figure-list is-collapsed no-captions">
+  <div class="figure-list__body figure-list--preview">
+    <div class="figure-list--col two-thirds">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-mild-3_640.jpg" />
+      </figure>
+    </div>
+    <div class="figure-list--col one-third">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-mild-2_640.jpg" />
+      </figure>
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-mild-1_640.jpg" />
+      </figure>
+    </div>
+  </div>
+  <button type="button" class="figure-list__btn">Expand images</button>
+</article>
 
-Severe acne can be painful and cause great distress. People with severe acne also worry about permanent scarring.  
+***
 
-Severe acne can be painful and cause great distress. People with severe acne also worry about permanent scarring.  
+**Moderate acne** - a larger number of red spots that don't go away after a few days. Affects around 1 in 4 people. 
 
-See your GP if: 
-- OTC treatments haven't worked after 2-3 weeks
-- your acne is severe 
-- your acne has not improved or is getting worse  
-- you’re worried about scarring
+<article class="figure-list is-collapsed no-captions">
+  <div class="figure-list__body figure-list--preview">
+    <div class="figure-list--col two-thirds">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-moderate-3_640.jpg" />
+      </figure>
+    </div>
+    <div class="figure-list--col one-third">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-moderate-2_640.jpg" />
+      </figure>
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-moderate-1_640.jpg" />
+      </figure>
+    </div>
+  </div>
+  <button type="button" class="figure-list__btn">Expand images</button>
+</article>
 
-If your acne is making you unhappy and affecting your everyday life, your GP can recommend a treatment to help control it.
+***
 
-!!!
+**Severe acne** - larger spots that can look like lumps, close together, often in groups. Affects 1 in 100 people. May lead to permanent scarring if left untreated.
 
-People affected by acne often leave it too long to see a doctor because they are told it is normal. Do not put off seeking treatment if you have scarring or your acne is not getting better with an OTC gel or cream. 
+<article class="figure-list is-collapsed no-captions">
+  <div class="figure-list__body figure-list--preview">
+    <div class="figure-list--col two-thirds">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-severe-3_640.jpg" />
+      </figure>
+    </div>
+    <div class="figure-list--col one-third">
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-severe-2_640.jpg" />
+      </figure>
+      <figure class="figure-list__figure">
+        <img src="/images/acne/acne-severe-1_640.jpg" />
+      </figure>
+    </div>
+  </div>
+  <button type="button" class="figure-list__btn">Expand images</button>
+</article>
 
-### What happens at your GP appointment
+## How to treat acne yourself {id="treating-1"}
 
-Your GP might ask you how long you’ve had symptoms, if there are triggers and how it is affecting your life.
-
-They can prescribe medicines such as:
-
-- topical retinoids
-- topical antibiotics
-- azelaic acid
-- antibiotic tablets
-- in women, the combined oral contraceptive pill
-- isotretinoin tablets or gels such as Roaccutane
-
-Some topical treatments (creams or gels) may dry or irritate the skin when you start using them. 
-
-If your face goes red and is irritated by a lotion or cream, stop treatment for a few days and try using the treatment less often and then building up gradually.
-
-## Treating severe acne
-
-Your GP may decide to: 
-- put you on a longer course of treatment 
-- a stronger medication 
-- combine your treatment with another medication, for example a cream or gel with antibiotics  
-- refer you to a skin specialist/dermatologist
-
-[Detailed information on acne treatments](http://www.nhs.uk/conditions/acne/pages/treatment.aspx)
-
-## Alternative and natural remedies for acne
-
-There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne
-
-## What causes spots and acne
-
-Common reasons people think they get acne
-
-- you do not get acne because you’re not washing enough. In fact, if you wash too much it can aggravate the skin and make it worse.
-- what you eat or drink has little or no effect on acne
-- stress doesn’t cause acne although it can make it worse
-
-::: reveal What thrush looks like
-We all have sebaceous glands that produce oil. We also shed dead skin cells. Acne happens when hormones cause these glands to produce too much oil and become plugged with skin cells. 
-
-If the plug is close to the surface of the skin, it bulges outwards, creating a whitehead. If it is open to the skin it creates a blackhead.
-
-Normally harmless bacteria that live on the skin can then contaminate, infect and inflame the plugged follicles, causing acne.
-:::
-
-## Dos and don’ts
-
-There are things you can do to help prevent or lessen the impact of acne.  
+To reduce acne and ease discomfort:
 
 <section class="panel panel--binary">
   <article class="panel__column">
     <div class="panel__content">
       <h3>Do</h3>
       <ul class="list--check">
-        <li>Treat acne as soon as it appears to help avoid scarring</li>
-        <li>use a mild soap or cleanser and lukewarm water (as very hot or cold water may your acne worse).</li>
-        <li>use treatments correctly so you get the maximum benefit</li>
+        <li>use a mild soap or cleanser and lukewarm water (hot or cold water may your acne worse)
+</li>
+        <li>use skin products labelled ‘non-comedogenic’ (should not cause blackheads or whiteheads) or non-acnegenic (should not cause acne)</li>
         <li>use oil-free or water based make-up</li>
-        <li>remove make up with a mild soap or a gentle cleanser and water, or an oil-free soap substitute</li>
-        <li>use products labelled as being ‘non-comedogenic’ (should not cause blackheads or whiteheads) or non-acnegenic (should not cause acne).</li>
+        <li>remove make up with a mild soap or a gentle cleanser and water, or with an oil-free soap solution
+</li>
+        <li>avoid stress where you can - it can make your acne worse </li>
+        <li>moisturise because some treatments for acne can dry out your skin - ask your pharmacist which products to use</li>
       </ul>
     </div>
   </article>
@@ -103,60 +105,80 @@ There are things you can do to help prevent or lessen the impact of acne.
       <h3>Don’t</h3>
       <ul class="list--cross">
         <li>pick or squeeze your spots as this makes them worse and may cause scarring</li>
-        <li>wash more than twice a day</li>
-        <li>Scrub too hard. This can irritate the skin and make your acne worse.</li>
+        <li>wash the area more than twice a day - washing too often can make acne worse</li>
+        <li>scrub too hard - this can irritate the skin and make your acne worse</li>
+        <li>put toothpaste on your spots - it can damage your skin</li>
+        <li>sunbathe or use sunbeds to get rid of acne - there’s little proof that it helps
+</li>
+        <li>believe anyone who tells you sex or masturbation makes acne worse - this isn’t true</li>
       </ul>
     </div>
   </article>
 </section>
 
-There is little evidence that any foods, such as chocolate and fast foods, cause acne.
+## Your pharmacist can help with mild acne
+
+If you have mild acne your pharmacist can recommend creams or gels. 
+
+Ask for products with benzoyl peroxide. They’re the only ones proven to reduce the number of spots. 
+
+!!! info_compact
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help)
+!!!
+
+## When to see a GP {id="treating-2"}
+
+Your GP can help if your acne is more severe or if it’s making you unhappy and affecting your everyday life.
+
+Don’t put off seeing your GP. People often leave it too long because they’re told acne is normal. But some types of acne can lead to scarring.
+
+!!! attention {id="treating-3"}
+## See a GP if: 
+- creams and gels from the pharmacy don’t help
+- you’re acne is getting worse
+- you’re worried about getting scars
+- your acne is making you unhappy and affecting your everyday life
+!!!
+
+### What happens at your appointment
+
+Your GP will look at your acne and talk to you about: 
+
+- how long you’ve had acne
+- if there are things you know of that make it worse
+- how it’s affecting your life
+
+You can speak freely with your GP. They see people with acne all the time. 
+
+It’s up to you if you come to the appointment on your own or with your parents. 
+
+## Treatment from your GP
+
+Your GP might prescribe you stronger medication than what you can get at the pharmacy, for example antibiotics.
+
+What they prescribe will very much depend on how severe your acne is and your skin type. Sometimes they’ll use a combination of treatments, for example a cream with antibiotic tablets. 
+
+Your GP will tell you how long to try the treatment for. If it doesn’t work, make another appointment. It might take some time to find the right treatment for you. 
+
+Your GP might also refer you to a skin specialist (dermatologist). 
+
+## Alternative and natural remedies for acne
+
+There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
+
+## What causes spots and acne {id="causes"}
+
+You get spots when the tiny holes (pores) that hairs in your skin grow out of become plugged. This happens when your skin produces too much oil which mixes with dead skin cells and forms a plug. 
+
+Bacteria that normally live on your skin can infect the plugged hole. This leads to spots. 
+
+Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. The glands that produce the oil are very sensitive to hormones. 
 
 Flares of acne can also be triggered by:
-- [polycystic ovarian disease](http://www.nhs.uk/conditions/Polycystic-ovarian-syndrome/Pages/Introduction.aspx
+
 - medicines such as steroids, hormones and anti-epileptic drugs
-- high humidity
-- a diet high in dairy products
+- very humid air
+- eating too much dairy 
+- [polycystic ovarian disease](http://www.nhs.uk/conditions/Polycystic-ovarian-syndrome/Pages/Introduction.aspx)
 
-## Support for when you have acne
-
-Having acne can impact people’s lives and happiness. 
-
-There are a number of forums and support services to help you deal with having acne.
-
-
-- [Healthtalkonline](http://www.healthtalk.org/young-peoples-experiences/acne/topics) Information, personal stories and forums for young people with acne 
-- [Depression - Healthtalkonline](http://www.healthtalk.org/peoples-experiences/mental-health/depression/topics) Includes videos of patients describing how certain conditions have affected their lives.
-- [Depression Alliance](http://www.depressionalliance.org) Charity for people who are affected by depression. With information on self-help groups.
-- [Depression UK](http://www.depressionuk.org) Information and support for people who are affected by depression.
-- [British Skin Foundation](http://www.britishskinfoundation.org.uk/SkinInformation/AtoZofSkindisease/Acne.aspx) Research and information about skin conditions including acne.
-- [Scar information service](http://www.scarinfo.org) Information about scar healing, scar therapies and the psychology of scars 
-
-## Acne myths and facts
-
-<table class="table--compare">
-<tr>
-  <th>Myths about acne</th>
-  <th>The facts!!!!</th>
-</tr>
-<tr>
-  <td>you shouldn’t use moisturisers</td>
-  <td>Some acne treatments can dry your skin out so it’s important to moisturise. Your pharmacist can advise you the best products to use.</td>
-</tr>
-<tr>
-  <td>toothpaste can get rid of acne</td>
-  <td>Toothpaste contains substances that can irritate and damage your skin</td>
-</tr>
-<tr>
-  <td>the sun helps get rid of acne</td>
-  <td>There is little evidence that sunlight or sunbeds will help get rid of acne.</td>
-</tr>
-<tr>
-  <td>acne is infectious</td>
-  <td>You cannot pass acne onto other people.</td>
-</tr>
-<tr>
-  <td>sex or masturbation can cause acne</td>
-  <td>Sex or masturbation won’t make your acne any better or worse.</td>
-</tr>
-</table>
+There is little evidence that any foods, such as chocolate and fast foods, cause acne.
