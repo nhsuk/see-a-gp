@@ -25,6 +25,7 @@
     "grunt-env": "^0.4.4",
     "grunt-nodemon": "^0.4.1",
     "grunt-sass": "^1.1.0",
+    "grunt-webpack": "^2.0.1",
     "html5shiv": "^3.7.3",
     "jquery": "1.12.4",
     "markdown-it": "^8.1.0",
@@ -42,7 +43,5 @@
     "request": "^2.72.0",
     "webpack": "1.13.2"
   },
-  "devDependencies": {
-    "grunt-webpack": "^2.0.1"
-  }
+  "devDependencies": {}
 }
