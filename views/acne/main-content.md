@@ -166,6 +166,10 @@ Your GP might also refer you to a skin specialist (dermatologist).
 
 There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
 
+## Comparing medicines {id="medicines"}
+
+[Treatment table]
+
 ## What causes spots and acne {id="causes"}
 
 You get spots when the tiny holes (pores) that hairs in your skin grow out of become plugged. This happens when your skin produces too much oil which mixes with dead skin cells and forms a plug. 
@@ -182,3 +186,14 @@ Flares of acne can also be triggered by:
 - [polycystic ovarian disease](http://www.nhs.uk/conditions/Polycystic-ovarian-syndrome/Pages/Introduction.aspx)
 
 There is little evidence that any foods, such as chocolate and fast foods, cause acne.
+
+## Finding help and support {id="help"}
+
+There are forums and support groups to help you deal with acne.
+
+- [Healthtalkonline](http://www.healthtalk.org/young-peoples-experiences/acne/topics) - Information, personal stories and forums for young people with acne 
+- [Depression - Healthtalkonline](http://www.healthtalk.org/peoples-experiences/mental-health/depression/topics) - Includes videos of patients describing how certain conditions have affected their lives.
+- [Depression Alliance](http://www.depressionalliance.org) - Charity for people who are affected by depression. With information on self-help groups.
+- [Depression UK](http://www.depressionuk.org) - Information and support for people who are affected by depression.
+- [British Skin Foundation](http://www.britishskinfoundation.org.uk/SkinInformation/AtoZofSkindisease/Acne.aspx) - Research and information about skin conditions including acne.
+- [Scar information service](http://www.scarinfo.org) - Information about scar healing, scar therapies and the psychology of scars
