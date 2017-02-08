@@ -88,7 +88,6 @@ fieldset,
 legend,
 figure,
 table,
-.table--compare,
 th,
 td,
 caption,
@@ -97,7 +96,7 @@ hr {
   padding: 0;
 }
 
-html, body, button, input, table, .table--compare, td, th {
+html, body, button, input, table, td, th {
   font-family: "Frutiger W01", Arial, sans-serif;
 }
 
@@ -783,106 +782,189 @@ p {
   }
 }
 
-table, .table--compare {
+table {
   border-collapse: collapse;
   border-spacing: 0;
   margin: 16px 0 32px;
   width: 100%;
 }
 
-table th, .table--compare th,
-table td, .table--compare td {
+table tr {
+  position: relative;
+}
+
+table th,
+table td {
   font-family: "Frutiger W01", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 24px;
   text-transform: none;
-  border-bottom: 2px solid #eff1f2;
+  border-bottom: 2px solid #d9e1e2;
   padding: 16px 16px 16px 0;
   vertical-align: top;
 }
 
 @media (min-width: 641px) {
-  table th, .table--compare th,
-  table td, .table--compare td {
-    font-size: 20px;
-    line-height: 32px;
+  table th,
+  table td {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
 @media (min-width: 925px) {
-  table th, .table--compare th,
-  table td, .table--compare td {
-    font-size: 20px;
-    line-height: 32px;
+  table th,
+  table td {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
-table th, .table--compare th {
-  font-family: "Frutiger W01", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 32px;
-  text-transform: none;
-  text-align: left;
-}
-
-@media (min-width: 641px) {
-  table th, .table--compare th {
-    font-size: 20px;
-    line-height: 32px;
-  }
-}
-
-@media (min-width: 925px) {
-  table th, .table--compare th {
-    font-size: 20px;
-    line-height: 32px;
-  }
-}
-
-.table--horizontal-scroll {
-  width: 100%;
-  overflow-y: scroll;
-}
-
-.table--horizontal-scroll table, .table--horizontal-scroll .table--compare {
-  min-width: 500px;
-  margin: 0;
-}
-
-.table--compare tr:nth-child(even) {
-  background-color: #f7f8f9;
-}
-
-.table--compare th, .table--compare td {
+table th {
   font-family: "Frutiger W01", Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   text-transform: none;
   text-align: left;
-  padding-left: 8px;
-  width: 50%;
 }
 
 @media (min-width: 641px) {
-  .table--compare th, .table--compare td {
+  table th {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media (min-width: 925px) {
-  .table--compare th, .table--compare td {
+  table th {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
-.table--compare ul {
+table caption {
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-transform: none;
+  text-align: left;
+}
+
+@media (min-width: 641px) {
+  table caption {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 925px) {
+  table caption {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+table caption + * {
+  margin-top: 16px;
+}
+
+@media (min-width: 925px) {
+  table caption + * {
+    margin-top: 32px;
+  }
+}
+
+table ul {
   list-style-type: none;
   padding-left: 0;
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  table ul {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  table ul {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.table--horizontal-scroll {
+  position: relative;
+  border: 2px solid #d9e1e2;
+  border-bottom-width: 6px;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.table--horizontal-scroll table {
+  min-width: 500px;
+  width: auto;
+  margin: 0;
+}
+
+.table--horizontal-scroll table th,
+.table--horizontal-scroll table td {
+  border-bottom-width: 1px;
+}
+
+.table--horizontal-scroll:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+  background: -moz-linear-gradient(left, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00#eff1f2', endColorstr='#eff1f2',GradientType=1 );
+  /* IE6-9 */
+  height: 100%;
+  right: 0;
+}
+
+@media (min-width: 641px) {
+  .table--horizontal-scroll:before {
+    width: 100px;
+  }
+}
+
+.table--compare th, .table--compare td {
+  box-sizing: border-box;
+}
+
+.table--compare th:first-child, .table--compare td:first-child {
+  padding-left: 16px;
+}
+
+.table--compare.has-2 th, .table--compare.has-2 td {
+  width: 50%;
+}
+
+.table--compare.has-5 th {
+  min-width: 150px;
+}
+
+.table--compare.has-5 td {
+  min-width: 250px;
 }
 
 blockquote {
@@ -1898,16 +1980,16 @@ strong {
   }
 }
 
-table.panel, .panel.table--compare {
+table.panel {
   table-layout: fixed;
 }
 
-table.panel th, .panel.table--compare th,
-table.panel td, .panel.table--compare td {
+table.panel th,
+table.panel td {
   padding: 16px;
 }
 
-table.panel th, .panel.table--compare th {
+table.panel th {
   background-color: #d9e1e2;
 }
 
@@ -2277,7 +2359,7 @@ table.panel th, .panel.table--compare th {
   outline: 3px solid #ffb81c;
 }
 
-.font-small, .table--compare ul, .card__caption--image p {
+.font-small, .card__caption--image p {
   font-family: "Frutiger W01", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -2286,14 +2368,14 @@ table.panel th, .panel.table--compare th {
 }
 
 @media (min-width: 641px) {
-  .font-small, .table--compare ul, .card__caption--image p {
+  .font-small, .card__caption--image p {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media (min-width: 925px) {
-  .font-small, .table--compare ul, .card__caption--image p {
+  .font-small, .card__caption--image p {
     font-size: 16px;
     line-height: 24px;
   }

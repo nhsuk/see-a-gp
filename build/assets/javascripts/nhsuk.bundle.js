@@ -11921,6 +11921,26 @@
 	
 	    //    console.log(rcaptionList);
 	  });
+	
+	  // Fancy table shizzle
+	
+	  //$(".table--acne th, .table--acne td").hover(function(){
+	
+	  //var getClass = $(this).attr('class');
+	
+	  //$(this).parents(".table--acne").find("." + getClass).addClass("has-hover");
+	
+	  //console.log(getClass);
+	
+	
+	  //}, function() {
+	
+	  //var getCol = $(this).parents(".table--acne").find("[class~=col-]");
+	
+	  //console.log(getCol);
+	
+	  //});
+	
 	});
 
 /***/ }
