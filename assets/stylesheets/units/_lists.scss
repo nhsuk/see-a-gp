@@ -32,7 +32,7 @@ dl {
 
 .dt-inline {
   float: left;
-  
+
   &:after{
     content: " -\00a0";
     @include core-font(20);
@@ -166,4 +166,12 @@ dl {
       width: 18px;
     }
   }
+}
+
+.list--related-condition {
+    margin-top: $default-spacing-unit !important;
+    
+    li{
+      @include core-font(16);
+    }
 }

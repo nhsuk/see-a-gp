@@ -1,8 +1,29 @@
 {% extends '_layouts/content-simple.nunjucks' %}
 
 {% set title = 'Urinary tract infections (UTIs)' %}
-{% set intro = 'Urinary tract infections (UTIs) include cystitis (bladder infections), urethritis and kidney infections. Most UTIs pass within a few days but kidney infections are more severe. All UTIs can be easily treated with antibiotics.' %}
+
+{% set intro = 'Most UTIs pass within a few days but kidney infections are more severe. All UTIs can be easily treated with antibiotics.' %}
+
+
 {% set nonEmergencyCallout = 'true' %}
+
+{% block local_header %}
+<div class="local-header">
+
+  <h1 class="local-header__title">{{ guide.title if guide else title }}</h1>
+
+    <div class="local-header__intro">
+
+        <h5>INCLUDING</h5>
+        <ul class="list--related-condition">
+            <li>Cystitis (bladder infections)</li>
+            <li>Urethritis (infection of the tube that carries pee out of the body)</li>
+            <li>Kidney infections</li>
+        </ul>
+
+    </div>
+</div>
+{% endblock %}
 
 {% block main_content %}
   {% markdown "uti/main-content.md" %}
