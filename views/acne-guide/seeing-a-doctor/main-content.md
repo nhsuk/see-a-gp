@@ -6,9 +6,15 @@ You can go on your own or bring someone with you. It’s important you feel comf
 
 ## Mild acne
 
-Your first step with mild acne is to see a pharmacist. It may take some time for the products they recommend to work. 
+For mild acne you don’t always need to see a GP. Talk to a pharmacist first. They can recommend creams or gels. 
 
-If your find products from the pharmacy don’t work, see your GP. 
+Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
+
+If these products don’t work, see your GP. 
+
+!!! info_compact
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
+!!!
 
 ## Moderate and severe acne
 
@@ -30,4 +36,8 @@ Treating acne is not always straightforward and you might have to try different 
 
 Make another appointment if the prescribed treatment doesn’t work within the time frame. It’s normal for people to go back to their GP for acne. 
 
-Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment.
+Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment. 
+
+## Alternative and natural remedies for acne
+
+There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.

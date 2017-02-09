@@ -1,12 +1,12 @@
 ## Check if you have acne {id="check"}
 
-You usually have acne on your: 
-- face - for most people
+You can have acne on your: 
+- face 
 - back
 - chest 
 - shoulders
 
-Acne can be mild to severe.
+Acne can be mild to severe. This depends on what kind of spots you have. 
 
 <dl>
 
@@ -86,16 +86,18 @@ Acne can look similar to other skin conditions.
 
 | Skin symptoms | Possible cause | 
 | -------- | -------- |
-| Permanent redness on cheeks, spots | [rosacea](http://www.nhs.uk/Conditions/Rosacea/Pages/Introduction.aspx) 
-| Itchy, dry, cracked, sore | [eczema](http://www.nhs.uk/Conditions/Eczema-(atopic)/Pages/Introduction.aspx) | 
-| Red spots, sometimes pus-filled sores | [ingrown hairs](http://www.nhs.uk/conditions/ingrown-hairs/Pages/Introduction.aspx) | 
-| Painful bump with yellow pus-filled spot | [boil](http://www.nhs.uk/conditions/Boils/Pages/Introduction.aspx) or [cyst](http://www.nhs.uk/conditions/skin-cyst/Pages/Introduction.aspx) | 
-| Painful swelling under the skin | [lump](http://www.nhs.uk/conditions/lumps-swellings/Pages/Introduction.aspx) |
-| Itchy blisters | [shingles](https://beta.nhs.uk/conditions/shingles), [chickenpox](http://www.nhs.uk/conditions/Chickenpox/Pages/Introduction.aspx) |
+| Permanent redness on cheeks, spots | rosacea 
+| Itchy, dry, cracked, sore | eczema | 
+| Red spots, sometimes pus-filled sores | ingrown hairs | 
+| Painful bump with yellow pus-filled spot | boil  or cyst | 
+| Painful swelling under the skin | lump |
+| Itchy blisters | shingles, chickenpox |
 
 :::
 
 ## Things you can do yourself {id="yourself"}
+
+There are some things everyone with acne can do or should avoid. 
 
 !!! warning
 General rule: avoid anything that irritates your skin, for example rubbing it when washing or picking spots.
@@ -106,14 +108,14 @@ General rule: avoid anything that irritates your skin, for example rubbing it wh
     <div class="panel__content">
       <h3>Do</h3>
       <ul class="list--check">
-        <li>use a mild soap or cleanser and lukewarm water (hot or cold water make your acne worse)
+        <li>use a mild soap or cleanser and lukewarm water (hot or cold water may your acne worse)
 </li>
-        <li>use skin products labelled ‘non-comedogenic’ (shouldn’t cause blackheads or whiteheads) or non-acnegenic (shouldn’t cause acne)</li>
+        <li>use skin products labelled ‘non-comedogenic’ (should not cause blackheads or whiteheads) or non-acnegenic (should not cause acne)</li>
         <li>use oil-free or water based make-up</li>
-        <li>remove make-up with one of these: mild soap, gentle cleanser and water, oil-free soap solution
+        <li>remove make up with a mild soap or a gentle cleanser and water, or with an oil-free soap solution
 </li>
         <li>avoid stress where you can - it can make your acne worse </li>
-        <li>moisturise because some acne treatments dry out your skin - ask your pharmacist which moisturisers  to use</li>
+        <li>moisturise because some treatments for acne can dry out your skin - ask your pharmacist which products to use</li>
       </ul>
     </div>
   </article>
@@ -133,20 +135,6 @@ General rule: avoid anything that irritates your skin, for example rubbing it wh
   </article>
 </section>
 
-## A pharmacist can help with acne
-
-For mild acne talk to a pharmacist first. They can recommend creams or gels. 
-
-Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
-
-!!! info_compact
-[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
-!!!
-
-## Alternative and natural remedies for acne
-
-There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
-
 ## Seeing a doctor about acne {id="doctor"}
 
 If you’re worried about getting scars or your acne is making you unhappy, see a GP. They see people with acne all the time and will be able to help you. 
@@ -155,9 +143,15 @@ You can go on your own or bring someone with you. It’s important you feel comf
 
 ## Mild acne
 
-Your first step with mild acne is to see a pharmacist. It may take some time for the products they recommend to work. 
+For mild acne you don’t always need to see a GP. Talk to a pharmacist first. They can recommend creams or gels. 
 
-If your find products from the pharmacy don’t work, see your GP. 
+Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
+
+If these products don’t work, see your GP. 
+
+!!! info_compact
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
+!!!
 
 ## Moderate and severe acne
 
@@ -180,6 +174,10 @@ Treating acne is not always straightforward and you might have to try different 
 Make another appointment if the prescribed treatment doesn’t work within the time frame. It’s normal for people to go back to their GP for acne. 
 
 Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment. 
+
+## Alternative and natural remedies for acne
+
+There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
 
 ## Comparing medicines {id="medicines"}
 
@@ -374,7 +372,7 @@ Bacteria can infect the blocked pore. This leads to spots.
 
 Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. It’s possible that the testosterone tells the glands to produce more oil than is needed. 
 
-Things that can make acne worse: 
+Flares of acne can be triggered by:
 
 - very humid air
 - eating too much dairy 
@@ -383,13 +381,13 @@ Things that can make acne worse:
 
 There is little evidence that foods, such as chocolate and fast foods, cause acne.
 
-## Forums and support groups {id="help"}
+## Finding help and support {id="help"}
 
-There are forums and support groups where you can talk to other people with acne:
+There are forums and support groups to help you deal with acne.
 
 - [Healthtalkonline](http://www.healthtalk.org/young-peoples-experiences/acne/topics) - Information, personal stories and forums for young people with acne 
-- [Depression UK](http://www.depressionuk.org) - Information and support for people who are affected by depression.
-- [British Skin Foundation](http://www.britishskinfoundation.org.uk/SkinInformation/AtoZofSkindisease/Acne.aspx) - Research and information about skin conditions including acne.
-- [Scar information service](http://www.scarinfo.org) - Information about scar healing, scar therapies and the psychology of scars 
 - [Depression - Healthtalkonline](http://www.healthtalk.org/peoples-experiences/mental-health/depression/topics) - Includes videos of patients describing how certain conditions have affected their lives.
 - [Depression Alliance](http://www.depressionalliance.org) - Charity for people who are affected by depression. With information on self-help groups.
+- [Depression UK](http://www.depressionuk.org) - Information and support for people who are affected by depression.
+- [British Skin Foundation](http://www.britishskinfoundation.org.uk/SkinInformation/AtoZofSkindisease/Acne.aspx) - Research and information about skin conditions including acne.
+- [Scar information service](http://www.scarinfo.org) - Information about scar healing, scar therapies and the psychology of scars
