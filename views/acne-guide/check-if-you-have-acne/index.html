@@ -6,13 +6,13 @@
 {% set guide_parent = 'acne-guide' %}
 {% set guide_pages = '7' %}
 
-{% set guide_pages_1 = { 'Check if you have acne': '/check-if-you-have-acne/', 'Things you can do yourself': '/things-you-can-do', 'Seeing a doctor about acne': '/seeing-a-doctor' } %}
+{% set guide_pages_1 = { 'Check if you have acne': '/check-if-you-have-acne/', 'Things you can do yourself': '/things-you-can-do/', 'Seeing a doctor about acne': '/seeing-a-doctor/' } %}
 {% set guide_pages_2 = { 'Comparing medicines': '/comparing-medicines/', 'What causes acne': '/what-causes-acne/', 'Finding help and support': '/finding-help-and-support/' } %}
 
-{* set next_page = *}
-{% set prev_page= { 'What causes acne': '/what-causes-acne/' } %}
+{% set next_page = { 'Things you can do yourself': '/things-you-can-do/' } %}
+{* set prev_page= *}
 
 {% block main_content %}
-  {% markdown "acne-guide/finding-help-and-support/main-content.md" %}
+  {% markdown "acne-guide/check-if-you-have-acne/main-content.md" %}
   {% include '_includes/guide-pager.nunjucks' %}
 {% endblock %}

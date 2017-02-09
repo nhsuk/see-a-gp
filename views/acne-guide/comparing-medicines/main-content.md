@@ -1,5 +1,7 @@
 ## Comparing medicines
 
+There are lots of medicines available to treat acne. These are the most common ones. 
+
 ### Gels and creams
 
 <div class="table--horizontal-scroll">

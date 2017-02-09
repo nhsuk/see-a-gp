@@ -300,7 +300,7 @@ dl dt {
 .global-footer dd + dd,
 .global-footer dt + li,
 .global-footer dt + dd {
-  margin: 8px 0 0 0;
+  margin-top: 8px;
 }
 
 .local-header li > ul,
@@ -328,7 +328,7 @@ dl dt {
 .global-footer dt > ul,
 .global-footer dt > ol,
 .global-footer dt > dl {
-  margin: 8px 0 0 0;
+  margin-top: 8px;
 }
 
 .local-header .dt-inline + dd,
