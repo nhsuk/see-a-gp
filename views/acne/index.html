@@ -1,10 +1,10 @@
 {% extends '_layouts/content-simple.nunjucks' %}
 
 {% set title = 'Acne' %}
-{% set intro = 'If you have a few spots your pharmacist will be able to recommend treatment. For more serious acne you can see your GP.' %}
+{% set intro = 'Everybody can get acne. It’s simply to do with the way your skin works. If you’re worried about scars or your acne makes you unhappy, see a GP.' %}
 {% set nonEmergencyCallout = 'true' %}
 
-{% set link_list = { 'Check if it’s acne': '#check', 'Treating acne yourself': '#treating-1', 'When to see a GP': '#treating-2', 'Comparing medicines': '#medicines', 'What causes acne': '#causes', 'Finding help and support': '#help' } %}
+{% set link_list = { 'Check if you have acne': '#check', 'Things you can do yourself': '#yourself', 'Seeing a doctor about acne': '#doctor', 'Comparing medicines': '#medicines', 'What causes acne': '#causes', 'Finding help and support': '#help' } %}
 
 {% block main_content %}
   {% markdown "acne/main-content.md" %}

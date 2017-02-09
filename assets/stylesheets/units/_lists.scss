@@ -30,21 +30,36 @@ dl {
   }
 }
 
+.dt-inline {
+  float: left;
+  
+  &:after{
+    content: " -\00a0";
+    @include core-font(20);
+  }
+}
+
 .local-header,
 .page-section,
 .global-footer {
   li, dd, dt, {
     + li, + dd {
-      margin-top: $baseline-grid-unit * 2;
+      margin: ($baseline-grid-unit * 2) 0 0 0;
     }
 
     > ul,
     > ol,
     > dl {
-      margin-top: $baseline-grid-unit * 2;
+      margin: ($baseline-grid-unit * 2) 0 0 0 ;
     }
+    
+  }
+  
+  .dt-inline + dd {
+    @include element-spacing;
   }
 }
+
 
 .list--chevron,
 .list--check,

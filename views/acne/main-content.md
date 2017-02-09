@@ -1,88 +1,107 @@
-## Check if it’s acne {id="check"}
+## Check if you have acne {id="check"}
 
-Usually you get acne on your:
-
-- face
-- back 
+You can have acne on your: 
+- face 
+- back
 - chest 
 - shoulders
 
-You’ll have spots like whiteheads, blackheads or bigger lumps. How serious your acne is depends on how many spots you have: 
+Acne can be mild to severe. This depends on what kind of spots you have. 
 
-Acne mostly affects teenagers but adults can develop it too. 
+<dl>
 
-## How serious is my acne?
-
-**Mild acne** - small spots with blackheads or whiteheads. Affects most people at some point in their lives.
-
-<article class="figure-list is-collapsed no-captions">
-  <div class="figure-list__body figure-list--preview">
-    <div class="figure-list--col two-thirds">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-mild-3_640.jpg" />
-      </figure>
+<dt>Mild acne</dt>
+<dd>Small spots, whiteheads, blackheads. Almost everyone has this at some point, especially as a teenager.</dd>
+<dd>
+  <article class="figure-list is-collapsed no-captions">
+    <div class="figure-list__body figure-list--preview">
+      <div class="figure-list--col two-thirds">
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-mild-3_640.jpg" />
+        </figure>
+      </div>
+      <div class="figure-list--col one-third">
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-mild-2_640.jpg" />
+        </figure>
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-mild-1_640.jpg" />
+        </figure>
+      </div>
     </div>
-    <div class="figure-list--col one-third">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-mild-2_640.jpg" />
-      </figure>
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-mild-1_640.jpg" />
-      </figure>
+    <button type="button" class="figure-list__btn">Expand images</button>
+  </article>
+</dd>
+
+<dt>Moderate acne</dt>
+<dd>Larger number of red spots that don’t go away after a few days.</dd>
+<dd>
+  <article class="figure-list is-collapsed no-captions">
+    <div class="figure-list__body figure-list--preview">
+      <div class="figure-list--col two-thirds">
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-moderate-3_640.jpg" />
+        </figure>
+      </div>
+      <div class="figure-list--col one-third">
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-moderate-2_640.jpg" />
+        </figure>
+        <figure class="figure-list__figure">
+          <img src="/images/acne/acne-moderate-1_640.jpg" />
+        </figure>
+      </div>
     </div>
-  </div>
-  <button type="button" class="figure-list__btn">Expand images</button>
-</article>
+    <button type="button" class="figure-list__btn">Expand images</button>
+  </article>
+</dd>
 
-***
+<dt>Severe acne</dt>
+<dd>Larger spots that make your skin look lumpy, close together, often in groups.</dd>
+  <dd>
+    <article class="figure-list is-collapsed no-captions">
+      <div class="figure-list__body figure-list--preview">
+        <div class="figure-list--col two-thirds">
+          <figure class="figure-list__figure">
+            <img src="/images/acne/acne-severe-3_640.jpg" />
+          </figure>
+        </div>
+        <div class="figure-list--col one-third">
+          <figure class="figure-list__figure">
+            <img src="/images/acne/acne-severe-2_640.jpg" />
+          </figure>
+          <figure class="figure-list__figure">
+            <img src="/images/acne/acne-severe-1_640.jpg" />
+          </figure>
+        </div>
+      </div>
+      <button type="button" class="figure-list__btn">Expand images</button>
+    </article>
+  </dd>
+</dl>
 
-**Moderate acne** - a larger number of red spots that don't go away after a few days. Affects around 1 in 4 people. 
+::: reveal If you’re unsure it’s acne
 
-<article class="figure-list is-collapsed no-captions">
-  <div class="figure-list__body figure-list--preview">
-    <div class="figure-list--col two-thirds">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-moderate-3_640.jpg" />
-      </figure>
-    </div>
-    <div class="figure-list--col one-third">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-moderate-2_640.jpg" />
-      </figure>
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-moderate-1_640.jpg" />
-      </figure>
-    </div>
-  </div>
-  <button type="button" class="figure-list__btn">Expand images</button>
-</article>
+Acne can look similar to other skin conditions. 
 
-***
+| Skin symptoms | Possible cause | 
+| -------- | -------- |
+| Permanent redness on cheeks, spots | rosacea 
+| Itchy, dry, cracked, sore | eczema | 
+| Red spots, sometimes pus-filled sores | ingrown hairs | 
+| Painful bump with yellow pus-filled spot | boil  or cyst | 
+| Painful swelling under the skin | lump |
+| Itchy blisters | shingles, chickenpox |
 
-**Severe acne** - larger spots that can look like lumps, close together, often in groups. Affects 1 in 100 people. May lead to permanent scarring if left untreated.
+:::
 
-<article class="figure-list is-collapsed no-captions">
-  <div class="figure-list__body figure-list--preview">
-    <div class="figure-list--col two-thirds">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-severe-3_640.jpg" />
-      </figure>
-    </div>
-    <div class="figure-list--col one-third">
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-severe-2_640.jpg" />
-      </figure>
-      <figure class="figure-list__figure">
-        <img src="/images/acne/acne-severe-1_640.jpg" />
-      </figure>
-    </div>
-  </div>
-  <button type="button" class="figure-list__btn">Expand images</button>
-</article>
+## Things you can do yourself {id="yourself"}
 
-## How to treat acne yourself {id="treating-1"}
+There are some things everyone with acne can do or should avoid. 
 
-To reduce acne and ease discomfort:
+!!! warning
+General rule: avoid anything that irritates your skin, for example rubbing it when washing or picking spots.
+!!! 
 
 <section class="panel panel--binary">
   <article class="panel__column">
@@ -116,57 +135,53 @@ To reduce acne and ease discomfort:
   </article>
 </section>
 
-## Your pharmacist can help with mild acne
+## Seeing a doctor about acne {id="doctor"}
 
-If you have mild acne your pharmacist can recommend creams or gels. 
+If you’re worried about getting scars or your acne is making you unhappy, see a GP. They see people with acne all the time and will be able to help you. 
 
-Ask for products with benzoyl peroxide. They’re the only ones proven to reduce the number of spots. 
+You can go on your own or bring someone with you. It’s important you feel comfortable when talking about your symptoms. 
+
+## Mild acne
+
+For mild acne you don’t always need to see a GP. Talk to a pharmacist first. They can recommend creams or gels. 
+
+Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
+
+If these products don’t work, see your GP. 
 
 !!! info_compact
-[Find a pharmacy](https://beta.nhs.uk/finders/find-help)
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
 !!!
 
-## When to see a GP {id="treating-2"}
+## Moderate and severe acne
 
-Your GP can help if your acne is more severe or if it’s making you unhappy and affecting your everyday life.
+It’s important to see a GP for moderate and severe acne because they can leave scars. Sometimes it can be hard to make the decision to go and see someone but try not put it off. 
 
-Don’t put off seeing your GP. People often leave it too long because they’re told acne is normal. But some types of acne can lead to scarring.
-
-!!! attention {id="treating-3"}
-## See a GP if: 
-- creams and gels from the pharmacy don’t help
-- you’re acne is getting worse
-- you’re worried about getting scars
-- your acne is making you unhappy and affecting your everyday life
-!!!
-
-### What happens at your appointment
-
-Your GP will look at your acne and talk to you about: 
+The GP will ask things like: 
 
 - how long you’ve had acne
 - if there are things you know of that make it worse
 - how it’s affecting your life
 
-You can speak freely with your GP. They see people with acne all the time. 
+You can speak freely with your GP. 
 
-It’s up to you if you come to the appointment on your own or with your parents. 
+### Treatments from your GP
 
-## Treatment from your GP
+Your GP will talk you through treatments that are suitable for your level of acne and your skin type. Together you’ll decide what to try first. 
 
-Your GP might prescribe you stronger medication than what you can get at the pharmacy, for example antibiotics.
+Treating acne is not always straightforward and you might have to try different treatments. They can also take some time to work. It’s usually between 2 to 6 months before you start seeing a change. 
 
-What they prescribe will very much depend on how severe your acne is and your skin type. Sometimes they’ll use a combination of treatments, for example a cream with antibiotic tablets. 
+Make another appointment if the prescribed treatment doesn’t work within the time frame. It’s normal for people to go back to their GP for acne. 
 
-Your GP will tell you how long to try the treatment for. If it doesn’t work, make another appointment. It might take some time to find the right treatment for you. 
-
-Your GP might also refer you to a skin specialist (dermatologist). 
+Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment. 
 
 ## Alternative and natural remedies for acne
 
 There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
 
 ## Comparing medicines {id="medicines"}
+
+There are lots of medicines available to treat acne. These are the most common ones. 
 
 ### Gels and creams
 
@@ -351,20 +366,20 @@ There is little proof to show that natural remedies such as using tea tree oil a
 
 ## What causes spots and acne {id="causes"}
 
-You get spots when the tiny holes (pores) that hairs in your skin grow out of become plugged. This happens when your skin produces too much oil which mixes with dead skin cells and forms a plug. 
+You get spots when your skin pores become blocked. This happens when the skin produces too much oil. The oil mixes with dead skin cells and forms a plug. 
 
-Bacteria that normally live on your skin can infect the plugged hole. This leads to spots. 
+Bacteria can infect the blocked pore. This leads to spots. 
 
-Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. The glands that produce the oil are very sensitive to hormones. 
+Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. It’s possible that the testosterone tells the glands to produce more oil than is needed. 
 
-Flares of acne can also be triggered by:
+Flares of acne can be triggered by:
 
-- medicines such as steroids, hormones and anti-epileptic drugs
 - very humid air
 - eating too much dairy 
 - [polycystic ovarian disease](http://www.nhs.uk/conditions/Polycystic-ovarian-syndrome/Pages/Introduction.aspx)
+- medicines such as steroids, hormones and anti-epileptic drugs
 
-There is little evidence that any foods, such as chocolate and fast foods, cause acne.
+There is little evidence that foods, such as chocolate and fast foods, cause acne.
 
 ## Finding help and support {id="help"}
 

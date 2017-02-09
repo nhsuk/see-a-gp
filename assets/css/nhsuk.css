@@ -591,6 +591,33 @@ dl dt {
   }
 }
 
+.dt-inline {
+  float: left;
+}
+
+.dt-inline:after {
+  content: " -\00a0";
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .dt-inline:after {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 925px) {
+  .dt-inline:after {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
 .local-header li + li, .local-header li + dd, .local-header dd + li, .local-header dd + dd, .local-header dt + li, .local-header dt + dd,
 .page-section li + li,
 .page-section li + dd,
@@ -604,7 +631,7 @@ dl dt {
 .global-footer dd + dd,
 .global-footer dt + li,
 .global-footer dt + dd {
-  margin-top: 8px;
+  margin: 8px 0 0 0;
 }
 
 .local-header li > ul,
@@ -632,7 +659,21 @@ dl dt {
 .global-footer dt > ul,
 .global-footer dt > ol,
 .global-footer dt > dl {
-  margin-top: 8px;
+  margin: 8px 0 0 0;
+}
+
+.local-header .dt-inline + dd,
+.page-section .dt-inline + dd,
+.global-footer .dt-inline + dd {
+  margin-top: 16px;
+}
+
+@media (min-width: 925px) {
+  .local-header .dt-inline + dd,
+  .page-section .dt-inline + dd,
+  .global-footer .dt-inline + dd {
+    margin-top: 32px;
+  }
 }
 
 .list--chevron,
