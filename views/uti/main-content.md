@@ -108,7 +108,7 @@ Treatment in hospital usually lasts a few days and may include:
 To help ease pain while your symptoms clear up:
 
 - take painkillers such as paracetamol - you can give children liquid paracetamol
-- **don’t** take NSAIDs or aspirin if you have a kidney infection - this may increase the risk of kidney problems
+- don’t take NSAIDs or aspirin if you have a kidney infection - this may increase the risk of kidney problems
 - place a hot water bottle on your tummy, back or between your thighs
 - rest and drink plenty of fluids - this helps your body to flush out the bacteria
 
@@ -144,7 +144,7 @@ There are some things you can try to prevent a UTI.
         <li>hold your pee in if you feel the urge to go</li>
         <li>wear synthetic underwear, such as nylon </li>
         <li>wear tight jeans or trousers</li>
-        <li>use <a href="http://www.nhs.uk/Conditions/contraception-guide/Pages/male-condoms.aspx">condoms</a> or <a href="http://www.nhs.uk/Conditions/contraception-guide/Pages/contraceptive-diaphragm.aspx">diaphragm</a> with spermicidal lube on them - try a different type of <a href="http://www.nhs.uk/conditions/contraception-guide/pages/contraception.aspx">contraception</a></li>
+        <li>use <a href="http://www.nhs.uk/Conditions/contraception-guide/Pages/male-condoms.aspx">condoms</a> or <a href="http://www.nhs.uk/Conditions/contraception-guide/Pages/contraceptive-diaphragm.aspx">diaphragms</a> with spermicidal lube on them</li>
       </ul>
     </div>
   </article>
