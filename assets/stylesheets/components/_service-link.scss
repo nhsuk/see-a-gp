@@ -3,7 +3,8 @@
   background-color: $light-blue-10;
   margin-top: 0px;
   border: solid $light-blue;
-  border-width: 0 ($baseline-grid-unit * 1) ($baseline-grid-unit * 1) ($baseline-grid-unit * 1);
+  border-width: 0 0 ($baseline-grid-unit * 2) 0 ;
+  // border-width: 0 ($baseline-grid-unit * 1) ($baseline-grid-unit * 2) ($baseline-grid-unit * 1);
 
   &:focus {
     outline: 3px solid $focus-colour;

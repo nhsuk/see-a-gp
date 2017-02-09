@@ -30,6 +30,8 @@
         {% endfor %}
         </ul>
       {% endif %}
+
+      {% block local_header_extra %}{% endblock %}
       
       {% if guide_pages %}
       

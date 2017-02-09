@@ -1,30 +1,33 @@
+
 ## Check if you have a UTI
+
+Most UTIs pass within a few days. All UTIs can be easily treated with antibiotics.
 
 Symptoms of a UTI include:
 
 - needing to pee suddenly or more often than usual
 - pain or a burning sensation when peeing
 - smelly or cloudy pee 
-- [blood in your pee](www.nhs.uk/conditions/blood-in-urine/Pages/Introduction.aspx)
+- [blood in your pee](http://www.nhs.uk/conditions/blood-in-urine/Pages/Introduction.aspx)
 - pain in your lower tummy 
 - feeling tired and unwell
+- in older people, changes in behaviour such as severe confusion or agitation
 
-Children may also:
+!!!warning
+  UTI symptoms may be difficult to spot in people with dementia.
+!!!
+
+Children with UTIs may also:
 
 - appear generally unwell - babies may be irritable, not feed properly and have a high temperature (fever) of 37.5C or above
 - wet the bed or themselves
 - deliberately hold in their pee because it stings
 
-!!!warning
-Elderly people with [dementia](http://www.nhs.uk/Conditions/dementia-guide/Pages/about-dementia.aspx) have a high risk of UTIs but can't always tell you about their symptoms.
-
-The key warning sign to look out for is episodes of sudden and severe confusion (delirium).
-!!!
-
 !!!attention
 ## See a GP if:
 
-- you're a man or pregnant with symptoms of a UTI
+- you're a man with symptoms of a UTI
+- you're pregnant with symptoms of a UTI
 - your child has symptoms of a UTI
 - you're caring for someone elderly who may have a UTI
 - you have blood in your pee
@@ -33,7 +36,7 @@ The key warning sign to look out for is episodes of sudden and severe confusion 
 - your symptoms come back after treatment
 !!!
 
-!!!warning
+!!!alert
 **Ask for an urgent GP appointment if you have:**
 
 - pain in your sides or lower back
@@ -47,9 +50,13 @@ These symptoms suggest a kidney infection, which can be serious if it isn't trea
 
 ### Sexual health clinics can help with UTIs
 
+Sexual health clinics treat problems with the genitals and urine system.
+
 Many sexual health clinics also offer a walk-in service, where you don't need an appointment.
 
-[Find a sexual health clinic](http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847) 
+<div class="callout callout--info callout--compact">
+  <a href="http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847">Find a sexual health clinic</a>
+</div>
 
 ## What happens at your appointment 
 
@@ -68,11 +75,8 @@ You'll be given a sterile container and it's usually possible to give the sample
 If you need to collect the sample at home, keep it in the fridge in a sealed plastic bag. Don't keep it in the fridge for more than 24 hours.
 :::
 :::reveal What are lower and upper UTIs?
-
-Your GP may describe a UTI as either:
-
-- **a lower UTI** - if you have [urethritis](http://www.nhs.uk/conditions/non_specific_urethritis/pages/introduction.aspx) (infection of the tube that carries pee out of the body) or [cystitis](http://www.nhs.uk/conditions/cystitis/Pages/Introduction.aspx) (bladder infection) 
-- **an upper UTI** - if you have a [kidney infection](http://www.nhs.uk/Conditions/Kidney-infection/Pages/Introduction.aspx) or infection of the ureters (tubes connecting the kidneys to the bladder)
+- **lower UTI** - urethritis or cystitis (bladder infection) 
+- **upper UTI** - kidney infection
 :::
 
 ## Treatment from a GP
@@ -103,8 +107,8 @@ Treatment in hospital usually lasts a few days and may include:
 
 To help ease pain while your symptoms clear up:
 
-- take painkillers such as [paracetamol](http://www.nhs.uk/conditions/Painkillers-paracetamol/Pages/Introduction.aspx) - you can give children liquid paracetamol
-- **don’t** take  [NSAIDs](http://www.nhs.uk/Conditions/Anti-inflammatories-non-steroidal/Pages/Introduction.aspx) such as [ibuprofen](http://www.nhs.uk/Conditions/Painkillers-ibuprofen/Pages/Introduction.aspx) or [aspirin](http://www.nhs.uk/conditions/anti-platelets-aspirin-low-dose-/Pages/Introduction.aspx) if you have a kidney infection - this may increase the risk of kidney problems
+- take painkillers such as paracetamol - you can give children liquid paracetamol
+- **don’t** take NSAIDs or aspirin if you have a kidney infection - this may increase the risk of kidney problems
 - place a hot water bottle on your tummy, back or between your thighs
 - rest and drink plenty of fluids - this helps your body to flush out the bacteria
 
@@ -116,7 +120,7 @@ UTIs are usually caused by bacteria from poo entering the urinary tract. The bac
 
 Women have a shorter urethra, so bacteria is more likely to reach the bladder or kidneys.
 
-There are some things you can do to try and prevent a UTI.
+There are some things you can try to prevent a UTI.
 
 <section class="panel panel--binary">
   <article class="panel__column">
@@ -149,7 +153,7 @@ There are some things you can do to try and prevent a UTI.
 
 ### Natural remedies
 
-There is very little evidence that drinking cranberry juice or using [probiotics](http://www.nhs.uk/Conditions/probiotics/Pages/Introduction.aspx) reduces your chance of getting UTIs.
+There is very little evidence that drinking cranberry juice or using probiotics reduces your chance of getting UTIs.
 
 :::reveal Things that increase the risk of UTIs
 

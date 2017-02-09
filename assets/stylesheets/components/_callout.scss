@@ -19,7 +19,7 @@
 
 .callout--attention {
   border: solid $light-blue;
-  border-width: ($baseline-grid-unit * 1);
+  border-width: ($baseline-grid-unit * 2);
   padding: 24px;
 }
 
@@ -31,7 +31,7 @@
 
 .callout--alert {
   background-color: $red-10;
-  border-top: $baseline-grid-unit * 3 solid $red;
+  border-top: $baseline-grid-unit * 2 solid $red;
 }
 
 .callout--severe {
