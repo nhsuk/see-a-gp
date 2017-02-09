@@ -1,12 +1,12 @@
 ## Check if you have acne {id="check"}
 
-You can have acne on your: 
-- face 
+You usually have acne on your: 
+- face - for most people
 - back
 - chest 
 - shoulders
 
-Acne can be mild to severe. This depends on what kind of spots you have. 
+Acne can be mild to severe.
 
 <dl>
 
@@ -86,11 +86,11 @@ Acne can look similar to other skin conditions.
 
 | Skin symptoms | Possible cause | 
 | -------- | -------- |
-| Permanent redness on cheeks, spots | rosacea 
-| Itchy, dry, cracked, sore | eczema | 
-| Red spots, sometimes pus-filled sores | ingrown hairs | 
-| Painful bump with yellow pus-filled spot | boil  or cyst | 
-| Painful swelling under the skin | lump |
-| Itchy blisters | shingles, chickenpox |
+| Permanent redness on cheeks, spots | [rosacea](http://www.nhs.uk/Conditions/Rosacea/Pages/Introduction.aspx) 
+| Itchy, dry, cracked, sore | [eczema](http://www.nhs.uk/Conditions/Eczema-(atopic)/Pages/Introduction.aspx) | 
+| Red spots, sometimes pus-filled sores | [ingrown hairs](http://www.nhs.uk/conditions/ingrown-hairs/Pages/Introduction.aspx) | 
+| Painful bump with yellow pus-filled spot | [boil](http://www.nhs.uk/conditions/Boils/Pages/Introduction.aspx) or [cyst](http://www.nhs.uk/conditions/skin-cyst/Pages/Introduction.aspx) | 
+| Painful swelling under the skin | [lump](http://www.nhs.uk/conditions/lumps-swellings/Pages/Introduction.aspx) |
+| Itchy blisters | [shingles](https://beta.nhs.uk/conditions/shingles), [chickenpox](http://www.nhs.uk/conditions/Chickenpox/Pages/Introduction.aspx) |
 
 :::
