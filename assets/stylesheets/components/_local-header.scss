@@ -3,14 +3,14 @@
   @include element-padding;
   @include element-spacing;
   background-color: $nhs-blue;
-  padding-top: $baseline-grid-unit * 8;
+  padding-top: $baseline-grid-unit * 16;
 
   @include media(tablet) {
     padding-top: $baseline-grid-unit * 8;
   }
 
   @include media(desktop) {
-    padding-top: $baseline-grid-unit * 12;
+    padding-top: $baseline-grid-unit * 16;
   }
 
   .grid-row & {
@@ -64,7 +64,7 @@
     position: relative;
 
     @include media(desktop) {
-      margin-top: $baseline-grid-unit * 8;
+      margin-top: $baseline-grid-unit * 4;
       padding-top: $baseline-grid-unit * 4;
     }
 

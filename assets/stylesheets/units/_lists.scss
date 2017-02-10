@@ -170,8 +170,11 @@ dl {
 
 .list--related-condition {
     margin-top: $default-spacing-unit !important;
-    
+    list-style-type: none;
+    padding-left:0;
+
     li{
       @include core-font(16);
+      margin-top: $default-spacing-unit/2 !important;
     }
 }
