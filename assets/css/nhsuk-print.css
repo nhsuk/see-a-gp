@@ -430,6 +430,32 @@ dl dt {
   width: 18px;
 }
 
+.list--related-condition {
+  margin-top: 16px !important;
+}
+
+.list--related-condition li {
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .list--related-condition li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  .list--related-condition li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 a:link {
   color: #0072c6;
 }

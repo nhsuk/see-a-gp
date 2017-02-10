@@ -55,6 +55,29 @@ table {
   .table__horizontal-scroll-container {
     width: 100%;
     overflow-y: scroll;
+    
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+
+    &::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid $gray-4; /* should match background, can't be transparent */
+        background-color: rgba($gray-2, .5);
+    }
+
+    &::-webkit-scrollbar-track { 
+        background-color: $gray-4; 
+        border-radius: 8px; 
+    } 
   }
   
   table {
@@ -66,7 +89,6 @@ table {
     td {
       border-bottom-width: 1px;
     }
-    
   }
 
   &:before {

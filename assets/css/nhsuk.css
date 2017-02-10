@@ -761,6 +761,32 @@ dl dt {
   width: 18px;
 }
 
+.list--related-condition {
+  margin-top: 16px !important;
+}
+
+.list--related-condition li {
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .list--related-condition li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  .list--related-condition li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 a:link {
   color: #0072c6;
 }
@@ -951,6 +977,30 @@ table ul {
 .table--horizontal-scroll .table__horizontal-scroll-container {
   width: 100%;
   overflow-y: scroll;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .table--horizontal-scroll table {
@@ -1276,7 +1326,7 @@ strong {
 
 .callout--attention {
   border: solid #0091c9;
-  border-width: 4px;
+  border-width: 8px;
   padding: 24px;
 }
 
@@ -1288,7 +1338,7 @@ strong {
 
 .callout--alert {
   background-color: #fbe8e6;
-  border-top: 12px solid #d81e05;
+  border-top: 8px solid #d81e05;
 }
 
 .callout--severe {
@@ -2387,7 +2437,7 @@ table.panel th {
   background-color: #eef7fb;
   margin-top: 0px;
   border: solid #0091c9;
-  border-width: 0 4px 4px 4px;
+  border-width: 0 0 8px 0;
 }
 
 @media (min-width: 925px) {
