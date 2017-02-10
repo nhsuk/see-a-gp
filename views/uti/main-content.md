@@ -54,9 +54,9 @@ Sexual health clinics treat problems with the genitals and urine system.
 
 Many sexual health clinics also offer a walk-in service, where you don't need an appointment.
 
-<div class="callout callout--info callout--compact">
-  <a href="http://www.nhs.uk/Service-Search/Sexual%20health%20services/LocationSearch/1847">Find a sexual health clinic</a>
-</div>
+!!!info_compact
+[Find a sexual health clinic](http://www.nhs.uk/service-search/sexual%20health%20services/locationsearch/1847)
+!!!
 
 ## What happens at your appointment 
 
