@@ -5,6 +5,103 @@ There are lots of medicines available to treat acne. These are the most common o
 ### Gels and creams
 
 <div class="table--horizontal-scroll">
+  <button class="button table__btn scroll-right">Back</button> <button class="button table__btn scroll-left">Next</button> 
+  <div class="table__horizontal-scroll-container">
+    <table class="table--compare">
+      <thead>
+        <tr>
+          <th class="tr-label">Medicine</th>
+          <td>Benzoyl peroxide</td>
+          <td>Vitamin A gel or cream (topical retinoids)</td>
+          <td>Antibiotics gels or cream</td>
+          <td>Azelaic acid gel or cream</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="tr-label">What it does</th>
+          <td>Gets inflammation down and helps unplug blocked pores</td>
+          <td>Unblocks pores, reduces skin oil (sebum) clears up smaller spots</td>
+          <td>Kills bacteria that infect your skin pores</td>
+          <td>Gets rid of dead skin and kills bacteria</td>
+        </tr>
+        <tr>
+          <th class="tr-label">Pros</th>
+          <td>
+            <ul>
+              <li>works for mild acne</li>
+              <li>can get it at the pharmacy</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>clears up smaller spots, whiteheads and blackheads</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>clears up inflamed spots</li>
+              <li>irritates skin less than other creams or gels</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>works for mild acne</li>
+              <li>people who have side effects on other treatments use it</li>
+              <li>doesn't make your skin sensitive</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th class="tr-label">Cons</th>
+          <td>
+            <ul>
+              <li>can make your skin red and itchy</li>
+              <li>can make your skin more sensitive to sunlight (mild burns)</li>
+              <li>shouldn't get it on clothes and hair because it can bleach</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>can make your skin red and itchy</li>
+              <li>can make your skin more sensitive to sunlight (mild burns)</li>
+              <li>can't use it when pregnant</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>sometimes helps less on blackheads and whiteheads</li>
+              <li>can only use it for for up to 8 weeks</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>has side effects like mild burning, stinging, dryness and itchiness</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th class="tr-label">Need a prescription?</th>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <th class="tr-label">How long before it works?</th>
+          <td>About 2 months</td>
+          <td>4 to 12 weeks</td>
+          <td>6 to 8 weeks</td>
+          <td>4 weeks</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div class="table--horizontal-scroll">
+  <button class="button horizontal-scroll-right">Back</button> <button class="button horizontal-scroll-left">Next</button> 
   <div class="table__horizontal-scroll-container">
     <table class="table--compare has-5">
       <thead>

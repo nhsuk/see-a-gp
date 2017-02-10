@@ -984,23 +984,23 @@ table ul {
 }
 
 .table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:vertical {
-  width: 12px;
+  width: 11px;
 }
 
 .table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:horizontal {
-  height: 12px;
+  height: 11px;
 }
 
 .table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  border: 2px solid white;
+  border: 2px solid #eff1f2;
   /* should match background, can't be transparent */
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(118, 134, 146, 0.5);
 }
 
 .table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-track {
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: #eff1f2;
+  border-radius: 0px;
 }
 
 .table--horizontal-scroll table {
@@ -1038,24 +1038,32 @@ table ul {
   }
 }
 
-.table--compare th, .table--compare td {
-  box-sizing: border-box;
+.table--compare {
+  display: block;
 }
 
-.table--compare th:first-child, .table--compare td:first-child {
+.table--compare thead, .table--compare tbody, .table--compare tr, .table--compare th, .table--compare td {
+  display: block;
+  margin-top: 0;
+}
+
+.table--compare tr {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.table--compare th, .table--compare td {
+  min-width: 250px;
+  margin-top: 32px;
   padding-left: 16px;
 }
 
-.table--compare.has-2 th, .table--compare.has-2 td {
-  width: 50%;
-}
-
-.table--compare.has-5 th {
-  min-width: 150px;
-}
-
-.table--compare.has-5 td {
-  min-width: 250px;
+.table--compare .tr-label {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  border-bottom: none;
 }
 
 blockquote {
