@@ -40,8 +40,6 @@ table {
   }
   
   ul {
-    list-style-type: none;
-    padding-left:0;
     @include core-font(16);
   }
 
@@ -131,6 +129,13 @@ table {
     left: 0;
     margin-top: 0;
     border-bottom: none;
+    @include core-font(16);
+    color: $grey-2;
+    width: 100%;
+  }
+  
+  .col-label {
+    @include bold-font(16);
   }
   
 }

@@ -948,8 +948,6 @@ table caption + * {
 }
 
 table ul {
-  list-style-type: none;
-  padding-left: 0;
   font-family: "Frutiger W01", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1067,6 +1065,49 @@ table ul {
   left: 0;
   margin-top: 0;
   border-bottom: none;
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  color: #768692;
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  .table--compare .tr-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  .table--compare .tr-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.table--compare .col-label {
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .table--compare .col-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  .table--compare .col-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 blockquote {

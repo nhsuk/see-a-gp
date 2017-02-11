@@ -11,10 +11,10 @@ There are lots of medicines available to treat acne. These are the most common o
       <thead>
         <tr>
           <th class="tr-label">Medicine</th>
-          <td>Benzoyl peroxide</td>
-          <td>Vitamin A gel or cream (topical retinoids)</td>
-          <td>Antibiotics gels or cream</td>
-          <td>Azelaic acid gel or cream</td>
+          <td class="col-label">Benzoyl peroxide</td>
+          <td class="col-label">Vitamin A gel or cream (topical retinoids)</td>
+          <td class="col-label">Antibiotics gels or cream</td>
+          <td class="col-label">Azelaic acid gel or cream</td>
         </tr>
       </thead>
       <tbody>

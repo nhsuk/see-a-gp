@@ -11943,27 +11943,22 @@
 	
 	  // Style scrollable table container
 	
-	  var lastPos = 0;
-	
 	  $(".table__horizontal-scroll-container").scroll(function () {
-	    var currPos = $(this).scrollLeft();
 	
-	    if (lastPos < currPos) {
-	      console.log('scroll right ' + currPos);
-	    }
-	    if (lastPos > currPos) {
-	      console.log('scroll left ' + currPos);
-	    }
+	    var scrollPos = $(this).scrollLeft();
 	
-	    lastPos = currPos;
+	    // Make labels sticky
+	    $(".tr-label").css("left", scrollPos);
 	  });
 	
 	  $(".scroll-right").click(function () {
+	
 	    var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
 	    $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos - 250 }, 800);
 	  });
 	
 	  $(".scroll-left").click(function () {
+	
 	    var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
 	    $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos + 250 }, 800);
 	  });
