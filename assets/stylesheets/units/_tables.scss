@@ -2,7 +2,7 @@
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
   background: -moz-linear-gradient(left, rgba($colour,0) 0%, rgba($colour,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba($colour,0) 0%,rgba($colour,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba($colour,0) 0%,rgba($colour,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to right, rgba($colour,0) 0%,rgba($colour,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00#{$colour}', endColorstr='#{$colour}',GradientType=1 ); /* IE6-9 */
 }
 
@@ -40,8 +40,6 @@ table {
   }
   
   ul {
-    list-style-type: none;
-    padding-left:0;
     @include core-font(16);
   }
 
@@ -50,11 +48,34 @@ table {
 .table--horizontal-scroll {
   position: relative;
   border: 2px solid $grey-3;
-  border-bottom-width: 6px;
+  //border-bottom-width: 6px;
   
   .table__horizontal-scroll-container {
     width: 100%;
     overflow-y: scroll;
+    
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar:vertical {
+        width: 0;
+    }
+
+    &::-webkit-scrollbar:horizontal {
+        height: 16px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid $grey-3; /* should match background, can't be transparent */
+        background-color: rgba($grey-1, .5);
+    } 
+
+    &::-webkit-scrollbar-track { 
+        background-color: $grey-3; 
+        border-radius: 0px; 
+    }
   }
   
   table {
@@ -66,17 +87,19 @@ table {
     td {
       border-bottom-width: 1px;
     }
-    
   }
 
-  &:before {
+  &:after {
     content: "";
     display: block;
     position: absolute;
     width: 50px;
-    @include gradient-fade($grey-4);
-    height: 100%;
+    @include gradient-fade($white);
+    height: calc(100% - 16px);
     right: 0;
+    top: 0;
+    z-index: 100;
+    opacity: 0.9;
     
     @include media(tablet){
       width: 100px;
@@ -85,32 +108,36 @@ table {
 }
 
 .table--compare {
-
-  th,td {
-    box-sizing: border-box;
-    
-    &:first-child {
-      padding-left: ($baseline-grid-unit * 4);
-    }
+  display: block; //reset
+  
+  thead, tbody, tr, th, td {
+    display: block;
+    margin-top: 0;
   }
   
-  &.has-2 {
-    
-    th, td {
-      width: 50%;
-    }
-    
+  tr {
+    position: relative;
+    display: flex;
+    flex-direction: row;
   }
   
-  &.has-5 {
-    
-    th {
-      min-width: 150px;
-    }
-
-    td {
-      min-width: 250px;
-    }
+  th, td {
+    min-width: 250px;
+    margin-top: ($default-spacing-unit * 2);
+    padding-left: $default-spacing-unit;
   }
-
+  
+  .tr-label {
+    position: absolute;
+    left: 0;
+    margin-top: 0;
+    border-bottom: none;
+    @include core-font(16);
+    color: $grey-2;
+  }
+  
+  .col-label {
+    @include bold-font(16);
+  }
+  
 }

@@ -11841,15 +11841,21 @@
 	
 	$(document).ready(function () {
 	
-	  // Toggle expand and collapsed states
+	  // Toggle expand and collapsed states from button
 	
 	  $(".figure-list__btn").click(function (e) {
 	
 	    e.preventDefault();
 	
-	    $(this).parent(".figure-list").toggleClass("is-collapsed");
+	    $(this).parents(".figure-list").toggleClass("is-collapsed");
 	    $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    $(this).siblings(".tabs").find(".figure-list__body").toggleClass("figure-list--preview");
+	
+	    // Scroll to top of .figure-list on toggle
+	
+	    var anchor = $(this).parents(".figure-list").attr("id");
+	    var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	    $(document).scrollTop(anchorOffset);
 	
 	    // Change button label on toggle
 	
@@ -11862,19 +11868,45 @@
 	    }
 	
 	    $(this).text(newLabel);
+	  });
 	
-	    // Update layout class
+	  // Toggle expand and collapsed states from image
 	
-	    var getLayout = $(this).parent(".figure-list");
+	  $(".figure-list__figure").click(function () {
 	
-	    //if ( getLayout.hasClass("is-grid") == true ) {
-	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--grid");
-	    //console.log("grid");
-	    //} else if ( getLayout.hasClass("is-full-width") == true ) {
-	    // $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    // console.log("full width");
-	    //}
+	    $(this).parents(".figure-list").toggleClass("is-collapsed");
+	    $(this).parents(".figure-list__body").toggleClass("figure-list--preview");
+	
+	    if ($(this).parents(".figure-list").hasClass("is-collapsed") == false) {
+	
+	      // Scroll to top of clicked image on expand
+	
+	      var anchor = $(this).attr("id");
+	      var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	      $(document).scrollTop(anchorOffset);
+	    } else {
+	
+	      // Scroll to top of .figure-list on collapse
+	
+	      var anchor = $(this).parents(".figure-list").attr("id");
+	      var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	      $(document).scrollTop(anchorOffset);
+	    }
+	
+	    // Change button label on image click
+	
+	    var btn = $(this).parents(".figure-list").find(".figure-list__btn");
+	    var btnLabel = $(btn).text();
+	
+	    if (btnLabel == "Shrink images") {
+	      var newLabel = "Expand images";
+	    } else if (btnLabel == "Expand images") {
+	      var newLabel = "Shrink images";
+	    }
+	
+	    $(btn).text(newLabel);
 	  });
 	
 	  // Count and add numeric classes to each figure list and child figures
@@ -11892,8 +11924,8 @@
 	
 	    $(this).find(".figure-list__figure").each(function (i) {
 	
-	      $(this).toggleClass("figure-list__figure");
-	      $(this).toggleClass("figure-list__figure-" + (i + 1));
+	      //$(this).toggleClass("figure-list__figure");
+	      $(this).addClass("figure-" + (i + 1));
 	    });
 	
 	    // Get caption text
@@ -11917,30 +11949,49 @@
 	
 	    // Test
 	
-	    //    console.log("Figure list " + (i+1) + " has " + figureLength + " images");
-	
-	    //    console.log(rcaptionList);
+	    // console.log("Figure list " + (i+1) + " has " + figureLength + " images");
 	  });
 	
-	  // Fancy table shizzle
+	  // Style scrollable table container
 	
-	  //$(".table--acne th, .table--acne td").hover(function(){
+	  var countCol = $(".table__horizontal-scroll-container table").find(".col-label").length;
+	  var tableWidth = countCol * 250;
 	
-	  //var getClass = $(this).attr('class');
+	  // Set table width explicitly
+	  $(".table__horizontal-scroll-container table").width(tableWidth);
 	
-	  //$(this).parents(".table--acne").find("." + getClass).addClass("has-hover");
+	  // Find the scroll depth
 	
-	  //console.log(getClass);
+	  var containerWidth = $(".table__horizontal-scroll-container").width();
 	
+	  // Calculate visible columns
 	
-	  //}, function() {
+	  var calcCols = containerWidth / 250;
+	  var visCols = Math.floor(calcCols);
 	
-	  //var getCol = $(this).parents(".table--acne").find("[class~=col-]");
+	  // Get current scroll position
 	
-	  //console.log(getCol);
+	  var initOffset = $(".table__horizontal-scroll-container table").offset().left;
 	
-	  //});
+	  // Make labels sticky
 	
+	  $(".table__horizontal-scroll-container .tr-label").offset({ left: initOffset });
+	
+	  // Reset sticky labels on window resize
+	
+	  $(window).resize(function () {
+	
+	    var initOffset = $(".table__horizontal-scroll-container table").offset().left;
+	
+	    $(".table__horizontal-scroll-container .tr-label").offset({ left: initOffset });
+	  });
+	
+	  // Reset sticky labels on scroll
+	
+	  $(".table__horizontal-scroll-container").scroll(function () {
+	
+	    $(this).find(".tr-label").offset({ left: initOffset });
+	  });
 	});
 
 /***/ }

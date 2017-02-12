@@ -6,26 +6,26 @@ There are lots of medicines available to treat acne. These are the most common o
 
 <div class="table--horizontal-scroll">
   <div class="table__horizontal-scroll-container">
-    <table class="table--compare has-5">
+    <table class="table--compare">
       <thead>
         <tr>
-          <th></th>
-          <th>Benzoyl peroxide</th>
-          <th>Vitamin A gel or cream (topical retinoids)</th>
-          <th>Antibiotics gels or cream</th>
-          <th>Azelaic acid gel or cream</th>
+          <th class="tr-label">Medicine</th>
+          <td class="col-label">Benzoyl peroxide</td>
+          <td class="col-label">Vitamin A gel or cream (topical retinoids)</td>
+          <td class="col-label">Antibiotics gels or cream</td>
+          <td class="col-label">Azelaic acid gel or cream</td>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th>What it does</th>
+          <th class="tr-label">What it does</th>
           <td>Gets inflammation down and helps unplug blocked pores</td>
           <td>Unblocks pores, reduces skin oil (sebum) clears up smaller spots</td>
           <td>Kills bacteria that infect your skin pores</td>
           <td>Gets rid of dead skin and kills bacteria</td>
         </tr>
         <tr>
-          <th>Pros</th>
+          <th class="tr-label">Pros</th>
           <td>
             <ul>
               <li>works for mild acne</li>
@@ -52,7 +52,7 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Cons</th>
+          <th class="tr-label">Cons</th>
           <td>
             <ul>
               <li>can make your skin red and itchy</li>
@@ -80,14 +80,14 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Need a prescription?</th>
+          <th class="tr-label">Need a prescription?</th>
           <td>No</td>
           <td>Yes</td>
           <td>Yes</td>
           <td>Yes</td>
         </tr>
         <tr>
-          <th>How long before it works?</th>
+          <th class="tr-label">How long before it works?</th>
           <td>About 2 months</td>
           <td>4 to 12 weeks</td>
           <td>6 to 8 weeks</td>
@@ -102,10 +102,10 @@ There are lots of medicines available to treat acne. These are the most common o
 
 <div class="table--horizontal-scroll">
   <div class="table__horizontal-scroll-container">
-    <table class="table--compare has-5">
+    <table class="table--compare">
       <thead>
         <tr>
-          <th></th>
+          <th class="tr-label">Medicine</th>
           <th>Antibiotic tablets</th>
           <th>Co-cyprindiol (contraceptive pill)</th>
           <th>Isotretinoin</th>
@@ -113,13 +113,13 @@ There are lots of medicines available to treat acne. These are the most common o
       </thead>
       <tbody>
         <tr>
-          <th>What it does</th>
+          <th class="tr-label">What it does</th>
           <td>Kill bacteria, usually used with a gel or cream</td>
           <td>For women where hormones are causing acne</td>
           <td>Unblocks pores and reduces skin oil (sebum)</td>
         </tr>
         <tr>
-          <th>Pros</th>
+          <th class="tr-label">Pros</th>
           <td>
             <ul>
               <li>works for mild acne</li>
@@ -137,7 +137,7 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Cons</th>
+          <th class="tr-label">Cons</th>
           <td>
             <ul>
               <li>you can only use them for up to 6 months</li>
@@ -167,13 +167,13 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Need a prescription?</th>
+          <th class="tr-label">Need a prescription?</th>
           <td>Yes</td>
           <td>Yes</td>
           <td>Yes</td>
         </tr>
         <tr>
-          <th>How long before it works?</th>
+          <th class="tr-label">How long before it works?</th>
           <td>6 weeks</td>
           <td>Can be up to 1 year before you see changes</td>
           <td>4 to 6 months<br>Your acne can get worse in the first 7 to 10 days. This is normal and will settle.</td>

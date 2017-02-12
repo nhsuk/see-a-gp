@@ -1,4 +1,4 @@
-## Seeing a doctor about acne {id="doctor"}
+## Seeing a doctor about acne
 
 If you’re worried about getting scars or your acne is making you unhappy, see a GP. They see people with acne all the time and will be able to help you. 
 

@@ -948,8 +948,6 @@ table caption + * {
 }
 
 table ul {
-  list-style-type: none;
-  padding-left: 0;
   font-family: "Frutiger W01", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -974,12 +972,35 @@ table ul {
 .table--horizontal-scroll {
   position: relative;
   border: 2px solid #d9e1e2;
-  border-bottom-width: 6px;
 }
 
 .table--horizontal-scroll .table__horizontal-scroll-container {
   width: 100%;
   overflow-y: scroll;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:vertical {
+  width: 0;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:horizontal {
+  height: 16px;
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #d9e1e2;
+  /* should match background, can't be transparent */
+  background-color: rgba(66, 85, 99, 0.5);
+}
+
+.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-track {
+  background-color: #d9e1e2;
+  border-radius: 0px;
 }
 
 .table--horizontal-scroll table {
@@ -993,48 +1014,101 @@ table ul {
   border-bottom-width: 1px;
 }
 
-.table--horizontal-scroll:before {
+.table--horizontal-scroll:after {
   content: "";
   display: block;
   position: absolute;
   width: 50px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
-  background: -moz-linear-gradient(left, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(239, 241, 242, 0) 0%, #eff1f2 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 50%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00#eff1f2', endColorstr='#eff1f2',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00#fff', endColorstr='#fff',GradientType=1 );
   /* IE6-9 */
-  height: 100%;
+  height: calc(100% - 16px);
   right: 0;
+  top: 0;
+  z-index: 100;
+  opacity: 0.9;
 }
 
 @media (min-width: 641px) {
-  .table--horizontal-scroll:before {
+  .table--horizontal-scroll:after {
     width: 100px;
   }
 }
 
-.table--compare th, .table--compare td {
-  box-sizing: border-box;
+.table--compare {
+  display: block;
 }
 
-.table--compare th:first-child, .table--compare td:first-child {
+.table--compare thead, .table--compare tbody, .table--compare tr, .table--compare th, .table--compare td {
+  display: block;
+  margin-top: 0;
+}
+
+.table--compare tr {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.table--compare th, .table--compare td {
+  min-width: 250px;
+  margin-top: 32px;
   padding-left: 16px;
 }
 
-.table--compare.has-2 th, .table--compare.has-2 td {
-  width: 50%;
+.table--compare .tr-label {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  border-bottom: none;
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  color: #768692;
 }
 
-.table--compare.has-5 th {
-  min-width: 150px;
+@media (min-width: 641px) {
+  .table--compare .tr-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
-.table--compare.has-5 td {
-  min-width: 250px;
+@media (min-width: 925px) {
+  .table--compare .tr-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.table--compare .col-label {
+  font-family: "Frutiger W01", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .table--compare .col-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 925px) {
+  .table--compare .col-label {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 blockquote {
@@ -1427,6 +1501,10 @@ strong {
 .figure-list--col,
 [class*="figure-list__figure"] {
   margin-top: 16px;
+}
+
+[class*="figure-list__figure"] {
+  cursor: pointer;
 }
 
 .figure-list__caption,
