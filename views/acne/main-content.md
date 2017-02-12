@@ -1,30 +1,30 @@
 ## Check if you have acne {id="check"}
 
-You can have acne on your: 
-- face 
+You usually  have acne on your: 
+
+- face - for most people
 - back
 - chest 
 - shoulders
 
-Acne can be mild to severe. This depends on what kind of spots you have. 
+Acne can be mild to severe.
 
 <dl>
-
 <dt>Mild acne</dt>
 <dd>Small spots, whiteheads, blackheads. Almost everyone has this at some point, especially as a teenager.</dd>
 <dd>
-  <article class="figure-list is-collapsed no-captions">
+  <article class="figure-list is-collapsed no-captions" id="acne-mild">
     <div class="figure-list__body figure-list--preview">
       <div class="figure-list--col two-thirds">
-        <figure class="figure-list__figure">
+        <figure id="acne-mild-1" class="figure-list__figure">
           <img src="/images/acne/acne-mild-3_640.jpg" />
         </figure>
       </div>
       <div class="figure-list--col one-third">
-        <figure class="figure-list__figure">
+        <figure id="acne-mild-2" class="figure-list__figure">
           <img src="/images/acne/acne-mild-1_640.jpg" />
         </figure>
-        <figure class="figure-list__figure">
+        <figure id="acne-mild-3" class="figure-list__figure">
           <img src="/images/acne/acne-mild-2_640.jpg" />
         </figure>
       </div>
@@ -36,18 +36,18 @@ Acne can be mild to severe. This depends on what kind of spots you have.
 <dt>Moderate acne</dt>
 <dd>Larger number of red spots that don’t go away after a few days.</dd>
 <dd>
-  <article class="figure-list is-collapsed no-captions">
+  <article class="figure-list is-collapsed no-captions" id="acne-moderate">
     <div class="figure-list__body figure-list--preview">
       <div class="figure-list--col two-thirds">
-        <figure class="figure-list__figure">
+        <figure id="acne-moderate-1" class="figure-list__figure">
           <img src="/images/acne/acne-moderate-3_640.jpg" />
         </figure>
       </div>
       <div class="figure-list--col one-third">
-        <figure class="figure-list__figure">
+        <figure id="acne-moderate-2" class="figure-list__figure">
           <img src="/images/acne/acne-moderate-2_640.jpg" />
         </figure>
-        <figure class="figure-list__figure">
+        <figure id="acne-moderate-3" class="figure-list__figure">
           <img src="/images/acne/acne-moderate-1_640.jpg" />
         </figure>
       </div>
@@ -59,18 +59,18 @@ Acne can be mild to severe. This depends on what kind of spots you have.
 <dt>Severe acne</dt>
 <dd>Larger spots that make your skin look lumpy, close together, often in groups.</dd>
   <dd>
-    <article class="figure-list is-collapsed no-captions">
+    <article class="figure-list is-collapsed no-captions" id="acne-severe">
       <div class="figure-list__body figure-list--preview">
         <div class="figure-list--col two-thirds">
-          <figure class="figure-list__figure">
+          <figure id="acne-severe-1" class="figure-list__figure">
             <img src="/images/acne/acne-severe-2_640.jpg" />
           </figure>
         </div>
         <div class="figure-list--col one-third">
-          <figure class="figure-list__figure">
+          <figure id="acne-severe-2" class="figure-list__figure">
             <img src="/images/acne/acne-severe-1_640.jpg" />
           </figure>
-          <figure class="figure-list__figure">
+          <figure id="acne-severe-3" class="figure-list__figure">
             <img src="/images/acne/acne-severe-3_640.jpg" />
           </figure>
         </div>
@@ -86,18 +86,16 @@ Acne can look similar to other skin conditions.
 
 | Skin symptoms | Possible cause | 
 | -------- | -------- |
-| Permanent redness on cheeks, spots | rosacea 
-| Itchy, dry, cracked, sore | eczema | 
-| Red spots, sometimes pus-filled sores | ingrown hairs | 
-| Painful bump with yellow pus-filled spot | boil  or cyst | 
-| Painful swelling under the skin | lump |
-| Itchy blisters | shingles, chickenpox |
+| Permanent redness on cheeks, spots | [rosacea](http://www.nhs.uk/Conditions/Rosacea/Pages/Introduction.aspx) 
+| Itchy, dry, cracked, sore | [eczema](http://www.nhs.uk/Conditions/Eczema-(atopic)/Pages/Introduction.aspx) | 
+| Red spots, sometimes pus-filled sores | [ingrown hairs](http://www.nhs.uk/conditions/ingrown-hairs/Pages/Introduction.aspx) | 
+| Painful bump with yellow pus-filled spot | [boil](http://www.nhs.uk/conditions/Boils/Pages/Introduction.aspx) or [cyst](http://www.nhs.uk/conditions/skin-cyst/Pages/Introduction.aspx) | 
+| Painful swelling under the skin | [lump](http://www.nhs.uk/conditions/lumps-swellings/Pages/Introduction.aspx) |
+| Itchy blisters | [shingles](https://beta.nhs.uk/conditions/shingles), [chickenpox](http://www.nhs.uk/conditions/Chickenpox/Pages/Introduction.aspx) |
 
 :::
 
-## Things you can do yourself {id="yourself"}
-
-There are some things everyone with acne can do or should avoid. 
+## Things you can do yourself {id="yourself"} 
 
 !!! warning
 General rule: avoid anything that irritates your skin, for example rubbing it when washing or picking spots.
@@ -135,7 +133,21 @@ General rule: avoid anything that irritates your skin, for example rubbing it wh
   </article>
 </section>
 
-## Seeing a doctor about acne {id="doctor"}
+## A pharmacist can help with acne
+
+For mild acne talk to a pharmacist first. They can recommend creams or gels. 
+
+Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
+
+!!! info_compact
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
+!!!
+
+## Alternative and natural remedies for acne
+
+There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
+
+## Seeing a doctor about acne
 
 If you’re worried about getting scars or your acne is making you unhappy, see a GP. They see people with acne all the time and will be able to help you. 
 
@@ -143,15 +155,9 @@ You can go on your own or bring someone with you. It’s important you feel comf
 
 ## Mild acne
 
-For mild acne you don’t always need to see a GP. Talk to a pharmacist first. They can recommend creams or gels. 
+Your first step with mild acne is to see a pharmacist. It may take some time for the products they recommend to work. 
 
-Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
-
-If these products don’t work, see your GP. 
-
-!!! info_compact
-[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
-!!!
+If your find products from the pharmacy don’t work, see your GP. 
 
 ## Moderate and severe acne
 
@@ -173,11 +179,7 @@ Treating acne is not always straightforward and you might have to try different 
 
 Make another appointment if the prescribed treatment doesn’t work within the time frame. It’s normal for people to go back to their GP for acne. 
 
-Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment. 
-
-## Alternative and natural remedies for acne
-
-There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
+Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment.
 
 ## Comparing medicines {id="medicines"}
 
@@ -187,26 +189,26 @@ There are lots of medicines available to treat acne. These are the most common o
 
 <div class="table--horizontal-scroll">
   <div class="table__horizontal-scroll-container">
-    <table class="table--compare has-5">
+    <table class="table--compare">
       <thead>
         <tr>
-          <th></th>
-          <th>Benzoyl peroxide</th>
-          <th>Vitamin A gel or cream (topical retinoids)</th>
-          <th>Antibiotics gels or cream</th>
-          <th>Azelaic acid gel or cream</th>
+          <th class="tr-label">Medicine</th>
+          <td class="col-label">Benzoyl peroxide</td>
+          <td class="col-label">Vitamin A gel or cream (topical retinoids)</td>
+          <td class="col-label">Antibiotics gels or cream</td>
+          <td class="col-label">Azelaic acid gel or cream</td>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th>What it does</th>
+          <th class="tr-label">What it does</th>
           <td>Gets inflammation down and helps unplug blocked pores</td>
           <td>Unblocks pores, reduces skin oil (sebum) clears up smaller spots</td>
           <td>Kills bacteria that infect your skin pores</td>
           <td>Gets rid of dead skin and kills bacteria</td>
         </tr>
         <tr>
-          <th>Pros</th>
+          <th class="tr-label">Pros</th>
           <td>
             <ul>
               <li>works for mild acne</li>
@@ -233,7 +235,7 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Cons</th>
+          <th class="tr-label">Cons</th>
           <td>
             <ul>
               <li>can make your skin red and itchy</li>
@@ -261,14 +263,14 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Need a prescription?</th>
+          <th class="tr-label">Need a prescription?</th>
           <td>No</td>
           <td>Yes</td>
           <td>Yes</td>
           <td>Yes</td>
         </tr>
         <tr>
-          <th>How long before it works?</th>
+          <th class="tr-label">How long before it works?</th>
           <td>About 2 months</td>
           <td>4 to 12 weeks</td>
           <td>6 to 8 weeks</td>
@@ -283,10 +285,10 @@ There are lots of medicines available to treat acne. These are the most common o
 
 <div class="table--horizontal-scroll">
   <div class="table__horizontal-scroll-container">
-    <table class="table--compare has-5">
+    <table class="table--compare">
       <thead>
         <tr>
-          <th></th>
+          <th class="tr-label">Medicine</th>
           <th>Antibiotic tablets</th>
           <th>Co-cyprindiol (contraceptive pill)</th>
           <th>Isotretinoin</th>
@@ -294,13 +296,13 @@ There are lots of medicines available to treat acne. These are the most common o
       </thead>
       <tbody>
         <tr>
-          <th>What it does</th>
+          <th class="tr-label">What it does</th>
           <td>Kill bacteria, usually used with a gel or cream</td>
           <td>For women where hormones are causing acne</td>
           <td>Unblocks pores and reduces skin oil (sebum)</td>
         </tr>
         <tr>
-          <th>Pros</th>
+          <th class="tr-label">Pros</th>
           <td>
             <ul>
               <li>works for mild acne</li>
@@ -318,7 +320,7 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Cons</th>
+          <th class="tr-label">Cons</th>
           <td>
             <ul>
               <li>you can only use them for up to 6 months</li>
@@ -348,13 +350,13 @@ There are lots of medicines available to treat acne. These are the most common o
           </td>
         </tr>
         <tr>
-          <th>Need a prescription?</th>
+          <th class="tr-label">Need a prescription?</th>
           <td>Yes</td>
           <td>Yes</td>
           <td>Yes</td>
         </tr>
         <tr>
-          <th>How long before it works?</th>
+          <th class="tr-label">How long before it works?</th>
           <td>6 weeks</td>
           <td>Can be up to 1 year before you see changes</td>
           <td>4 to 6 months<br>Your acne can get worse in the first 7 to 10 days. This is normal and will settle.</td>
@@ -372,7 +374,7 @@ Bacteria can infect the blocked pore. This leads to spots.
 
 Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. It’s possible that the testosterone tells the glands to produce more oil than is needed. 
 
-Flares of acne can be triggered by:
+ Things that can make acne worse: 
 
 - very humid air
 - eating too much dairy 
@@ -381,13 +383,13 @@ Flares of acne can be triggered by:
 
 There is little evidence that foods, such as chocolate and fast foods, cause acne.
 
-## Finding help and support {id="help"}
+## Forums and support groups {id="help"}
 
-There are forums and support groups to help you deal with acne.
+There are forums and support groups where you can talk to other people with acne:
 
 - [Healthtalkonline](http://www.healthtalk.org/young-peoples-experiences/acne/topics) - Information, personal stories and forums for young people with acne 
-- [Depression - Healthtalkonline](http://www.healthtalk.org/peoples-experiences/mental-health/depression/topics) - Includes videos of patients describing how certain conditions have affected their lives.
-- [Depression Alliance](http://www.depressionalliance.org) - Charity for people who are affected by depression. With information on self-help groups.
 - [Depression UK](http://www.depressionuk.org) - Information and support for people who are affected by depression.
 - [British Skin Foundation](http://www.britishskinfoundation.org.uk/SkinInformation/AtoZofSkindisease/Acne.aspx) - Research and information about skin conditions including acne.
-- [Scar information service](http://www.scarinfo.org) - Information about scar healing, scar therapies and the psychology of scars
+- [Scar information service](http://www.scarinfo.org) - Information about scar healing, scar therapies and the psychology of scars 
+- [Depression - Healthtalkonline](http://www.healthtalk.org/peoples-experiences/mental-health/depression/topics) - Includes videos of patients describing how certain conditions have affected their lives.
+- [Depression Alliance](http://www.depressionalliance.org) - Charity for people who are affected by depression. With information on self-help groups.
