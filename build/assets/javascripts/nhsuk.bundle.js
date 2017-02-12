@@ -11841,15 +11841,21 @@
 	
 	$(document).ready(function () {
 	
-	  // Toggle expand and collapsed states
+	  // Toggle expand and collapsed states from button
 	
 	  $(".figure-list__btn").click(function (e) {
 	
 	    e.preventDefault();
 	
-	    $(this).parent(".figure-list").toggleClass("is-collapsed");
+	    $(this).parents(".figure-list").toggleClass("is-collapsed");
 	    $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    $(this).siblings(".tabs").find(".figure-list__body").toggleClass("figure-list--preview");
+	
+	    // Scroll to top of .figure-list
+	
+	    var anchor = $(this).parents(".figure-list").attr("id");
+	    var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	    $(document).scrollTop(anchorOffset);
 	
 	    // Change button label on toggle
 	
@@ -11862,19 +11868,43 @@
 	    }
 	
 	    $(this).text(newLabel);
+	  });
 	
-	    // Update layout class
+	  // Toggle expand and collapsed states from image
 	
-	    var getLayout = $(this).parent(".figure-list");
+	  $(".figure-list__figure").click(function () {
 	
-	    //if ( getLayout.hasClass("is-grid") == true ) {
-	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    //$(this).siblings(".figure-list__body").toggleClass("figure-list--grid");
-	    //console.log("grid");
-	    //} else if ( getLayout.hasClass("is-full-width") == true ) {
-	    // $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
-	    // console.log("full width");
-	    //}
+	    $(this).parents(".figure-list").toggleClass("is-collapsed");
+	    $(this).parents(".figure-list__body").toggleClass("figure-list--preview");
+	
+	    if ($(this).parents(".figure-list").hasClass("is-collapsed") == false) {
+	
+	      var anchor = $(this).attr("id");
+	      var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	      $(document).scrollTop(anchorOffset);
+	    } else {
+	
+	      var anchor = $(this).parents(".figure-list").attr("id");
+	      var anchorOffset = $("#" + anchor).offset().top - 16;
+	
+	      $(document).scrollTop(anchorOffset);
+	    }
+	
+	    // Change button label on toggle
+	
+	    var btn = $(this).parents(".figure-list").find(".figure-list__btn");
+	    var btnLabel = $(btn).text();
+	
+	    console.log(btnLabel);
+	
+	    if (btnLabel == "Shrink images") {
+	      var newLabel = "Expand images";
+	    } else if (btnLabel == "Expand images") {
+	      var newLabel = "Shrink images";
+	    }
+	
+	    $(btn).text(newLabel);
 	  });
 	
 	  // Count and add numeric classes to each figure list and child figures
@@ -11892,8 +11922,9 @@
 	
 	    $(this).find(".figure-list__figure").each(function (i) {
 	
-	      $(this).toggleClass("figure-list__figure");
-	      $(this).toggleClass("figure-list__figure-" + (i + 1));
+	      //$(this).toggleClass("figure-list__figure");
+	      //$(this).toggleClass("figure-list__figure-" + (i+1));
+	
 	    });
 	
 	    // Get caption text
@@ -11917,51 +11948,65 @@
 	
 	    // Test
 	
-	    //    console.log("Figure list " + (i+1) + " has " + figureLength + " images");
-	
-	    //    console.log(rcaptionList);
+	    // console.log("Figure list " + (i+1) + " has " + figureLength + " images");
 	  });
 	
 	  // Fancy table shizzle
 	
-	  //$(".table--acne th, .table--acne td").hover(function(){
-	
-	  //var getClass = $(this).attr('class');
-	
-	  //$(this).parents(".table--acne").find("." + getClass).addClass("has-hover");
-	
-	  //console.log(getClass);
-	
-	
-	  //}, function() {
-	
-	  //var getCol = $(this).parents(".table--acne").find("[class~=col-]");
-	
-	  //console.log(getCol);
-	
-	  //});
-	
 	  // Style scrollable table container
+	
+	  var countCol = $(".table--compare").find(".col-label").length;
+	  var tableWidth = countCol * 250;
+	
+	  // Set table width explicitly
+	  $(".table--compare").width(countCol);
+	
+	  // Find the scroll depth
+	  var containerWidth = $(".table__horizontal-scroll-container").width();
+	  var maxScrollPos = tableWidth - containerWidth;
+	
+	  console.log(maxScrollPos);
+	
+	  // Get current scroll position
+	
+	  var scrollPos = $(".table__horizontal-scroll-container").scrollLeft();
 	
 	  $(".table__horizontal-scroll-container").scroll(function () {
 	
 	    var scrollPos = $(this).scrollLeft();
 	
-	    // Make labels sticky
-	    $(".tr-label").css("left", scrollPos);
+	    console.log(scrollPos);
 	  });
 	
-	  $(".scroll-right").click(function () {
+	  if (scrollPos < maxScrollPos) {
 	
-	    var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-	    $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos - 250 }, 800);
-	  });
+	    $(".scroll-right").click(function () {
 	
-	  $(".scroll-left").click(function () {
+	      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
+	      $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos - 250 }, 400);
+	    });
 	
-	    var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-	    $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos + 250 }, 800);
-	  });
+	    $(".scroll-left").click(function () {
+	
+	      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
+	      $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos + 250 }, 400);
+	    });
+	  } else if (scrollPos >= maxScrollPos) {
+	
+	    $(".scroll-right").click(function () {
+	
+	      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
+	      $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos - 0 }, 400);
+	    });
+	
+	    $(".scroll-left").click(function () {
+	
+	      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
+	      $(".table__horizontal-scroll-container").animate({ scrollLeft: leftPos - containerWidth }, 400);
+	    });
+	
+	    console.log("do nothing");
+	  }
 	});
 
 /***/ }

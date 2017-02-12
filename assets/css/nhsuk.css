@@ -978,30 +978,29 @@ table ul {
 .table--horizontal-scroll .table__horizontal-scroll-container {
   width: 100%;
   overflow-y: scroll;
-}
+  /*
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
 
-.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar {
-  -webkit-appearance: none;
-}
+    &::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
 
-.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:vertical {
-  width: 11px;
-}
+    &::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
 
-.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar:horizontal {
-  height: 11px;
-}
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid $grey-4; /* should match background, can't be transparent */
+  /*   background-color: rgba($grey-2, .5);
+    } 
 
-.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  border: 2px solid #eff1f2;
-  /* should match background, can't be transparent */
-  background-color: rgba(118, 134, 146, 0.5);
-}
-
-.table--horizontal-scroll .table__horizontal-scroll-container::-webkit-scrollbar-track {
-  background-color: #eff1f2;
-  border-radius: 0px;
+    &::-webkit-scrollbar-track { 
+        background-color: $grey-4; 
+        border-radius: 0px; 
+    } */
 }
 
 .table--horizontal-scroll table {
@@ -1500,6 +1499,10 @@ strong {
 .figure-list--col,
 [class*="figure-list__figure"] {
   margin-top: 16px;
+}
+
+[class*="figure-list__figure"] {
+  cursor: pointer;
 }
 
 .figure-list__caption,
