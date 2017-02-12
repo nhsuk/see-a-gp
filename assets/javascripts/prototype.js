@@ -121,69 +121,48 @@ $(document).ready(function(){
 
   });
   
-  // Fancy table shizzle
-  
   // Style scrollable table container
   
-  var countCol = $(".table--compare").find(".col-label").length;
+  var countCol = $(".table__horizontal-scroll-container table").find(".col-label").length;
   var tableWidth = countCol * 250;
   
   // Set table width explicitly
-  $(".table--compare").width(countCol);
+  $(".table__horizontal-scroll-container table").width(tableWidth);
   
   // Find the scroll depth
-  var containerWidth = $(".table__horizontal-scroll-container").width();
-  var maxScrollPos = tableWidth - containerWidth;
   
-  console.log(maxScrollPos);
+  var containerWidth = $(".table__horizontal-scroll-container").width();
+  
+  // Calculate visible columns
+  
+  var calcCols = containerWidth / 250;
+  var visCols = Math.floor(calcCols);
   
   // Get current scroll position
   
-  var scrollPos = $(".table__horizontal-scroll-container").scrollLeft();
+  var initOffset = $(".table__horizontal-scroll-container table").offset().left;
+  
+  // Make labels sticky
+  
+  $(".table__horizontal-scroll-container .tr-label").offset({left: initOffset});
+  
+  // Reset sticky labels on window resize
+  
+  $(window).resize(function() {
+    
+    var initOffset = $(".table__horizontal-scroll-container table").offset().left;
+    
+    $(".table__horizontal-scroll-container .tr-label").offset({left: initOffset});
+    
+  });
+  
+  // Reset sticky labels on scroll
   
   $(".table__horizontal-scroll-container").scroll(function() {
     
-    var scrollPos = $(this).scrollLeft();
+    $(this).find(".tr-label").offset({left: initOffset});
     
-    console.log(scrollPos);
-
   });
-  
-  if (scrollPos < maxScrollPos) {
-  
-    $(".scroll-right").click(function () { 
-
-      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-      $(".table__horizontal-scroll-container").animate({scrollLeft: leftPos - 250}, 400);
-
-    });
-    
-    $(".scroll-left").click(function () { 
-
-      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-      $(".table__horizontal-scroll-container").animate({scrollLeft: leftPos + 250}, 400);
-
-    });
-    
-  } else if (scrollPos >= maxScrollPos) {
-      
-    $(".scroll-right").click(function () { 
-
-      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-      $(".table__horizontal-scroll-container").animate({scrollLeft: leftPos - 0}, 400);
-
-    });
-
-    $(".scroll-left").click(function () { 
-
-      var leftPos = $('.table__horizontal-scroll-container').scrollLeft();
-      $(".table__horizontal-scroll-container").animate({scrollLeft: leftPos - containerWidth}, 400);
-
-    });
-
-    console.log("do nothing");
-
-  }
 
 });
 
