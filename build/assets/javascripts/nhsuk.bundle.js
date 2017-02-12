@@ -11850,7 +11850,7 @@
 	    $(this).parents(".figure-list").toggleClass("is-collapsed");
 	    $(this).siblings(".figure-list__body").toggleClass("figure-list--preview");
 	
-	    // Scroll to top of .figure-list
+	    // Scroll to top of .figure-list on toggle
 	
 	    var anchor = $(this).parents(".figure-list").attr("id");
 	    var anchorOffset = $("#" + anchor).offset().top - 16;
@@ -11879,11 +11879,15 @@
 	
 	    if ($(this).parents(".figure-list").hasClass("is-collapsed") == false) {
 	
+	      // Scroll to top of clicked image on expand
+	
 	      var anchor = $(this).attr("id");
 	      var anchorOffset = $("#" + anchor).offset().top - 16;
 	
 	      $(document).scrollTop(anchorOffset);
 	    } else {
+	
+	      // Scroll to top of .figure-list on collapse
 	
 	      var anchor = $(this).parents(".figure-list").attr("id");
 	      var anchorOffset = $("#" + anchor).offset().top - 16;
@@ -11891,12 +11895,10 @@
 	      $(document).scrollTop(anchorOffset);
 	    }
 	
-	    // Change button label on toggle
+	    // Change button label on image click
 	
 	    var btn = $(this).parents(".figure-list").find(".figure-list__btn");
 	    var btnLabel = $(btn).text();
-	
-	    console.log(btnLabel);
 	
 	    if (btnLabel == "Shrink images") {
 	      var newLabel = "Expand images";
@@ -11923,8 +11925,7 @@
 	    $(this).find(".figure-list__figure").each(function (i) {
 	
 	      //$(this).toggleClass("figure-list__figure");
-	      //$(this).toggleClass("figure-list__figure-" + (i+1));
-	
+	      $(this).addClass("figure-" + (i + 1));
 	    });
 	
 	    // Get caption text
