@@ -6,7 +6,7 @@ Bacteria can infect the blocked pore. This leads to spots.
 
 Why your skin produces too much oil isn’t fully known. This could be because of a hormone called testosterone. During puberty your body produces more testosterone. It’s possible that the testosterone tells the glands to produce more oil than is needed. 
 
- Things that can make acne worse: 
+Things that can make acne worse: 
 
 - very humid air
 - eating too much dairy 
