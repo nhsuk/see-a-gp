@@ -1057,6 +1057,7 @@ table ul {
 
 .table--compare th, .table--compare td {
   width: 250px;
+  min-width: 250px;
   margin-top: 32px;
   padding-left: 16px;
 }

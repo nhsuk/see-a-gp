@@ -11957,8 +11957,10 @@
 	  var countCol = $(".table__horizontal-scroll-container table").find(".col-label").length;
 	  var tableWidth = countCol * 250;
 	
+	  console.log(countCol + " cols");
+	
 	  // Set table width explicitly
-	  $(".table__horizontal-scroll-container table").width(tableWidth);
+	  //$(".table__horizontal-scroll-container table").width(tableWidth);
 	
 	  // Find the scroll depth
 	
