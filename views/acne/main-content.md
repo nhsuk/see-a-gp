@@ -147,7 +147,7 @@ Ask for products with benzoyl peroxide. These are the only ones proven to reduce
 
 There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
 
-## Seeing a doctor about acne
+## Seeing a doctor about acne {id="#doctor"}
 
 If you’re worried about getting scars or your acne is making you unhappy, see a GP. They see people with acne all the time and will be able to help you. 
 
@@ -179,7 +179,7 @@ Treating acne is not always straightforward and you might have to try different 
 
 Make another appointment if the prescribed treatment doesn’t work within the time frame. It’s normal for people to go back to their GP for acne. 
 
-Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment.
+Your GP might also refer you to a skin specialist (dermatologist) to help with the treatment. 
 
 ## Comparing medicines {id="medicines"}
 

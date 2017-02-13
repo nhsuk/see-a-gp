@@ -1004,7 +1004,6 @@ table ul {
 }
 
 .table--horizontal-scroll table {
-  min-width: 500px;
   width: auto;
   margin: 0;
 }
@@ -1057,7 +1056,7 @@ table ul {
 }
 
 .table--compare th, .table--compare td {
-  min-width: 250px;
+  width: 250px;
   margin-top: 32px;
   padding-left: 16px;
 }

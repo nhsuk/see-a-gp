@@ -106,9 +106,9 @@ There are lots of medicines available to treat acne. These are the most common o
       <thead>
         <tr>
           <th class="tr-label">Medicine</th>
-          <th>Antibiotic tablets</th>
-          <th>Co-cyprindiol (contraceptive pill)</th>
-          <th>Isotretinoin</th>
+          <th class="col-label">Antibiotic tablets</th>
+          <th class="col-label">Co-cyprindiol (contraceptive pill)</th>
+          <th class="col-label">Isotretinoin</th>
         </tr>
       </thead>
       <tbody>

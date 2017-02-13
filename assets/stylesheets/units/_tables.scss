@@ -79,7 +79,6 @@ table {
   }
   
   table {
-    min-width: 500px;
     width: auto;
     margin: 0;
     
@@ -122,7 +121,7 @@ table {
   }
   
   th, td {
-    min-width: 250px;
+    width: 250px;
     margin-top: ($default-spacing-unit * 2);
     padding-left: $default-spacing-unit;
   }

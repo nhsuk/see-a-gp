@@ -1,7 +1,5 @@
 ## Things you can do yourself {id="yourself"}
 
-There are some things everyone with acne can do or should avoid. 
-
 !!! warning
 General rule: avoid anything that irritates your skin, for example rubbing it when washing or picking spots.
 !!! 
@@ -37,3 +35,17 @@ General rule: avoid anything that irritates your skin, for example rubbing it wh
     </div>
   </article>
 </section>
+
+## A pharmacist can help with acne
+
+For mild acne talk to a pharmacist first. They can recommend creams or gels. 
+
+Ask for products with benzoyl peroxide. These are the only ones proven to reduce the number of spots. 
+
+!!! info_compact
+[Find a pharmacy](https://beta.nhs.uk/finders/find-help) 
+!!!
+
+## Alternative and natural remedies for acne
+
+There is little proof to show that natural remedies such as using tea tree oil and herbal remedies help to treat acne.
