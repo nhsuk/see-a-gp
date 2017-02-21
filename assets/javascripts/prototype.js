@@ -3,6 +3,28 @@ const $ = require('jquery');
 
 $(document).ready(function(){
   
+  // Toggle cards
+  
+  $(".card__toggle-btn").click(function(e){
+    
+    e.preventDefault();
+    
+    $(this).parents(".card").toggleClass("is-expanded");
+    
+    var getChildren = $(this).parents(".card").children();
+    
+    $(getChildren).each(function() {
+      
+      var getHeight = $(this).height();
+      
+      console.log(getHeight);
+      
+    });
+    
+    console.log(getChildren);
+
+  });
+  
   // Toggle expand and collapsed states from button
   
   $(".figure-list__btn").click(function(e){
