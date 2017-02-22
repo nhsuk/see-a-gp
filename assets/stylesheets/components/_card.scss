@@ -11,6 +11,30 @@
   }
 }
 
+// New unit?
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow: visible;
+  position: relative;
+}
+
+.icon--droplet {
+  top: 1px;
+  background-image: url("../images/droplet.svg");
+}
+
+.icon--pill {
+  top: 1px;
+  background-image: url("../images/pill.svg");
+}
+
 .card {
   @include element-spacing(bottom);
   //background-color: $grey-4; remove background colour and set on figcaption
@@ -110,10 +134,11 @@
 
 .card__meta {
   @include core-font(16);
+  margin-top: ($default-spacing-unit / 2);
   
   .card--green & {
     display: inline;
-    margin-left: $default-spacing-unit;
+    margin-left: 1em;
   }
 }
 
@@ -131,6 +156,10 @@
   .card--blue & {
     background: rgba($light-blue, 0.2);
   }
+  
+  .card--tabbed & {
+    background: $grey-4;
+  }
 }
 
 .card__label {
@@ -143,7 +172,8 @@
 
 .card__col {
   
-  .card--green & {
+  .card--green &,
+  .card--tabbed & {
     
     @include media(tablet) {
       width: 50%;
@@ -165,7 +195,7 @@
     padding-top: $default-spacing-unit;
     border: 4px $light-blue solid;
     border-top: none;
-  
+    text-align: right;
     background: rgba(255,255,255,0);
     /* Old Browsers */background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 15%, rgba(255,255,255,0.85) 30%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
     /* FF3.6+ */background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(15%, rgba(255,255,255,0.7)), color-stop(30%, rgba(255,255,255,0.85)), color-stop(45%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
@@ -180,11 +210,8 @@
 
 .card__toggle-btn {
   @extend .button;
-  width: 100%;
-  color: $blue;
+  color: $link-colour;
   @include core-font(16);
-  padding: $default-spacing-unit;
-  text-align: right;
   margin: 0;
   text-decoration: underline;
   letter-spacing: 0;
@@ -195,7 +222,7 @@
   &:hover,
   &:focus,
   &:active {
-    color: $blue;
+    color: $link-hover-colour;
     background: transparent;
   }
 }
@@ -243,6 +270,22 @@
   }
 }
 
+.card--tabbed {
+  
+  > * {
+    border-left: 4px $grey-3 solid;
+    border-right: 4px $grey-3 solid;
+  }
+  
+  > :first-child {
+    //border-top: 2px $green solid;
+  }
+  
+  > :last-child {
+    border-bottom: 4px $grey-3 solid;
+  }
+}
+
 .card--blue {
   
   position: relative;
@@ -250,6 +293,7 @@
   > * {
     border-left: 4px $light-blue solid;
     border-right: 4px $light-blue solid;
+    box-sizing: border-box;
   }
   
   > :first-child {
@@ -263,16 +307,16 @@
   height: 400px;
   overflow-y: hidden;
   
-  -webkit-transition: height 0.8s;
-	-moz-transition: height 0.8s;
-	transition: height 0.8s;
+  -webkit-transition: height 0.6s;
+	-moz-transition: height 0.6s;
+	transition: height 0.6s;
   
   p, li {
     @include core-font(16);
   }
   
   &.is-expanded {
-    height: auto;
+    //height: auto;
   }
   
 }
