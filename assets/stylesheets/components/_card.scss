@@ -158,7 +158,7 @@
   }
   
   .card--tabbed & {
-    background: $grey-4;
+    background: $nhs-grey-04;
   }
 }
 
@@ -274,8 +274,8 @@
 .card--tabbed {
   
   > * {
-    border-left: 4px $grey-3 solid;
-    border-right: 4px $grey-3 solid;
+    border-left: 4px $nhs-grey-03 solid;
+    border-right: 4px $nhs-grey-03 solid;
   }
   
   > :first-child {
@@ -283,7 +283,7 @@
   }
   
   > :last-child {
-    border-bottom: 4px $grey-3 solid;
+    border-bottom: 4px $nhs-grey-03 solid;
   }
 }
 
