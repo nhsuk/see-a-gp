@@ -1699,7 +1699,7 @@ strong {
 }
 
 .card__toggle-btn:hover, .card__toggle-btn:focus, .card__toggle-btn:active {
-  color: #0072c6;
+  color: #0091c9;
   background: transparent;
 }
 
@@ -1739,14 +1739,15 @@ strong {
   position: relative;
   height: 400px;
   overflow-y: hidden;
-  -webkit-transition: height 0.8s;
-  -moz-transition: height 0.8s;
-  transition: height 0.8s;
+  -webkit-transition: height 0.6s;
+  -moz-transition: height 0.6s;
+  transition: height 0.6s;
 }
 
 .card--blue > * {
   border-left: 4px #0091c9 solid;
   border-right: 4px #0091c9 solid;
+  box-sizing: border-box;
 }
 
 .card--blue > :first-child {
@@ -1777,10 +1778,6 @@ strong {
     font-size: 16px;
     line-height: 24px;
   }
-}
-
-.card--blue.is-expanded {
-  height: auto;
 }
 
 .error {

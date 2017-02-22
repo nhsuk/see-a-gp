@@ -181,7 +181,7 @@
 .card__toggle-btn {
   @extend .button;
   width: 100%;
-  color: $blue;
+  color: $link-colour;
   @include core-font(16);
   padding: $default-spacing-unit;
   text-align: right;
@@ -195,7 +195,7 @@
   &:hover,
   &:focus,
   &:active {
-    color: $blue;
+    color: $link-hover-colour;
     background: transparent;
   }
 }
@@ -250,6 +250,7 @@
   > * {
     border-left: 4px $light-blue solid;
     border-right: 4px $light-blue solid;
+    box-sizing: border-box;
   }
   
   > :first-child {
@@ -263,16 +264,16 @@
   height: 400px;
   overflow-y: hidden;
   
-  -webkit-transition: height 0.8s;
-	-moz-transition: height 0.8s;
-	transition: height 0.8s;
+  -webkit-transition: height 0.6s;
+	-moz-transition: height 0.6s;
+	transition: height 0.6s;
   
   p, li {
     @include core-font(16);
   }
   
   &.is-expanded {
-    height: auto;
+    //height: auto;
   }
   
 }
