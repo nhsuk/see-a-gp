@@ -1,18 +1,22 @@
-## Check if you have acne {id="check"}
+## What acne can look like 
 
-You usually  have acne on your: 
+You usually have acne on your: 
 
 - face - for most people
 - back
 - chest 
 - shoulders
 
-Acne can be mild to severe.
+Acne can be mild, moderate or severe. This depends on what type of spots you have and how many. 
+
+However, your acne can change. It might be mild one week and moderate or severe the next. 
+
+Also, how you feel about your acne can be worse than the condition of your skin actually is. 
 
 <dl>
 
 <dt>Mild acne</dt>
-<dd>Small spots, whiteheads, blackheads. Almost everyone has this at some point, especially as a teenager.</dd>
+<dd>Mild acne - small spots, whiteheads, blackheads. Many people have this at some point, especially as a teenager.</dd>
 <dd>
   <article class="figure-list is-collapsed no-captions" id="acne-mild">
     <div class="figure-list__body figure-list--preview">
@@ -35,7 +39,7 @@ Acne can be mild to severe.
 </dd>
 
 <dt>Moderate acne</dt>
-<dd>Larger number of red spots that don’t go away after a few days.</dd>
+<dd>Moderate acne - larger number of red spots that don’t go away after a few days.</dd>
 <dd>
   <article class="figure-list is-collapsed no-captions" id="acne-moderate">
     <div class="figure-list__body figure-list--preview">
@@ -58,7 +62,7 @@ Acne can be mild to severe.
 </dd>
 
 <dt>Severe acne</dt>
-<dd>Larger spots that make your skin look lumpy, close together, often in groups.</dd>
+<dd>Severe acne - larger spots that make your skin look lumpy, close together, often in groups.</dd>
   <dd>
     <article class="figure-list is-collapsed no-captions" id="acne-severe">
       <div class="figure-list__body figure-list--preview">
@@ -83,7 +87,7 @@ Acne can be mild to severe.
 
 ::: reveal If you’re unsure it’s acne
 
-Acne can look similar to other skin conditions. 
+Acne can look similar to other skin conditions.
 
 | Skin symptoms | Possible cause | 
 | -------- | -------- |
