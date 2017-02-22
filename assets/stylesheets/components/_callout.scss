@@ -1,6 +1,6 @@
 .callout {
   @include element-padding;
-  background-color: $white;
+  background-color: $nhs-white;
 
   &:focus {
     outline: 3px solid $focus-colour;
@@ -8,35 +8,35 @@
 }
 
 .callout--muted {
-  background-color: $grey-3;
+  background-color: $nhs-grey-04;
 }
 
 .callout--info {
-  background-color: $grey-4;
-  border: solid $grey-2;
+  background-color: $nhs-grey-05;
+  border: solid $nhs-grey-02;
   border-width: 0 0 0 $baseline-grid-unit;
 }
 
 .callout--attention {
-  border: solid $light-blue;
+  border: solid $nhs-blue-bright;
   border-width: ($baseline-grid-unit * 2);
   padding: 24px;
 }
 
 .callout--warning {
-  background-color: $yellow-2;
-  border: solid $yellow;
+  background-color: $nhs-yellow-warm-10;
+  border: solid $nhs-yellow-warm-50;
   border-width: $baseline-grid-unit 0;
 }
 
 .callout--alert {
-  background-color: $red-10;
-  border-top: $baseline-grid-unit * 2 solid $red;
+  background-color: $nhs-emergency-red-10;
+  border-top: $baseline-grid-unit * 2 solid $nhs-emergency-red;
 }
 
 .callout--severe {
-  background-color: $red;
-  color: $white;
+  background-color: $nhs-emergency-red-10;
+  color: $nhs-white;
 
   a {
     @extend %link--reverse-polarity;
@@ -44,7 +44,7 @@
 }
 
 .callout--error {
-  border: $baseline-grid-unit solid $red;
+  border: $baseline-grid-unit solid $nhs-emergency-red;
 }
 
 .callout--compact {

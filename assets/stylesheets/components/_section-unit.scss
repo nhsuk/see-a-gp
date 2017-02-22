@@ -3,7 +3,7 @@
   position: relative;
 
   &:after {
-    background-color: $grey-3;
+    background-color: $nhs-grey-03;
     bottom: -($baseline-grid-unit / 2);
     content: "";
     display: block;
@@ -24,7 +24,7 @@
 
   .section-unit__prefix {
     @include core-font(20);
-    border-top: $baseline-grid-unit solid $grey-3;
+    border-top: $baseline-grid-unit solid $nhs-grey-03;
     display: inline-block;
     padding-top: $baseline-grid-unit;
 

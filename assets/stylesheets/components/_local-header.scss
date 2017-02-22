@@ -42,13 +42,13 @@
 
     &:hover {
       border-color: tint($nhs-blue, 60);
-      color: $white;
+      color: $nhs-white;
     }
   }
 
   .local-header__title {
     @include bold-font(36);
-    color: $white;
+    color: $nhs-white;
     margin: 0;
 
     @include media(tablet) {
@@ -57,7 +57,7 @@
   }
 
   .local-header__intro {
-    color: $white;
+    color: $nhs-white;
     margin-top: $baseline-grid-unit * 4;
     max-width: $measure;
     padding-top: $baseline-grid-unit * 4;
@@ -69,7 +69,7 @@
     }
 
     &:before {
-      background-color: tint($nhs-blue, 20);
+      background-color: $nhs-blue-50; //tint($nhs-blue, 20);
       content: "";
       display: block;
       height: $baseline-grid-unit;

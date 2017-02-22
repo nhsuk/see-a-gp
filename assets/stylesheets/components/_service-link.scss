@@ -1,8 +1,8 @@
 .servicelink {
   @include element-padding;
-  background-color: $light-blue-10;
+  background-color: $nhs-blue-10;
   margin-top: 0px;
-  border: solid $light-blue;
+  border: solid $nhs-blue-50;
   border-width: 0 0 ($baseline-grid-unit * 2) 0 ;
   // border-width: 0 ($baseline-grid-unit * 1) ($baseline-grid-unit * 2) ($baseline-grid-unit * 1);
 
