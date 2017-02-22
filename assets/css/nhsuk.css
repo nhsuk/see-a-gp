@@ -1420,6 +1420,28 @@ strong {
   }
 }
 
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 0.25em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow: visible;
+  position: relative;
+}
+
+.icon--droplet {
+  top: 1px;
+  background-image: url("../images/droplet.svg");
+}
+
+.icon--pill {
+  top: 1px;
+  background-image: url("../images/pill.svg");
+}
+
 .card {
   margin-bottom: 16px;
   display: block;
@@ -1565,6 +1587,7 @@ strong {
   font-weight: 400;
   line-height: 24px;
   text-transform: none;
+  margin-top: 8px;
 }
 
 @media (min-width: 641px) {
@@ -1583,7 +1606,7 @@ strong {
 
 .card--green .card__meta {
   display: inline;
-  margin-left: 16px;
+  margin-left: 1em;
 }
 
 .card__bar {
@@ -1602,6 +1625,10 @@ strong {
 
 .card--blue .card__bar {
   background: rgba(0, 145, 201, 0.2);
+}
+
+.card--tabbed .card__bar {
+  background: #eff1f2;
 }
 
 .card__label {
@@ -1631,15 +1658,18 @@ strong {
 }
 
 @media (min-width: 641px) {
-  .card--green .card__col {
+  .card--green .card__col,
+  .card--tabbed .card__col {
     width: 50%;
     float: left;
     box-sizing: border-box;
   }
-  .card--green .card__col:first-of-type {
+  .card--green .card__col:first-of-type,
+  .card--tabbed .card__col:first-of-type {
     padding-right: 8px;
   }
-  .card--green .card__col:last-of-type {
+  .card--green .card__col:last-of-type,
+  .card--tabbed .card__col:last-of-type {
     padding-left: 8px;
   }
 }
@@ -1648,6 +1678,7 @@ strong {
   padding-top: 16px;
   border: 4px #0091c9 solid;
   border-top: none;
+  text-align: right;
   background: rgba(255, 255, 255, 0);
   /* Old Browsers */
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 15%, rgba(255, 255, 255, 0.85) 30%, white 45%, white 100%);
@@ -1667,15 +1698,12 @@ strong {
 }
 
 .card__toggle-btn {
-  width: 100%;
   color: #0072c6;
   font-family: "Frutiger W01", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-transform: none;
-  padding: 16px;
-  text-align: right;
   margin: 0;
   text-decoration: underline;
   letter-spacing: 0;
@@ -1733,6 +1761,15 @@ strong {
 
 .card--green > :last-child {
   border-bottom: 2px #009e49 solid;
+}
+
+.card--tabbed > * {
+  border-left: 4px #d9e1e2 solid;
+  border-right: 4px #d9e1e2 solid;
+}
+
+.card--tabbed > :last-child {
+  border-bottom: 4px #d9e1e2 solid;
 }
 
 .card--blue {
