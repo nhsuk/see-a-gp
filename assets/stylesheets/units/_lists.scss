@@ -98,41 +98,41 @@ dl {
     }
 
     &:before {
-      border-color: transparent transparent transparent $grey-1;
+      border-color: transparent transparent transparent $nhs-grey-01;
       border-width: 10px 0 10px 10px;
       left: -$_chevron-padding;
 
       // variations for different coloured backgrounds
       .callout--warning & {
-        border-left-color: $black;
+        border-left-color: $nhs-black;
       }
 
       .callout--severe & {
-        border-left-color: $white;
+        border-left-color: $nhs-white;
       }
     }
 
     &:after {
-      border-color: transparent transparent transparent $white;
+      border-color: transparent transparent transparent $nhs-white;
       border-width: 10px 0 10px 10px;
       left: -($_chevron-padding + 6px);
 
       // variations for different coloured backgrounds
       .callout--info &,
       .panel & {
-        border-left-color: $grey-4;
+        border-left-color: $nhs-grey-04;
       }
 
       .callout--warning & {
-        border-left-color: tint($yellow, 20%);
+        border-left-color: tint($nhs-yellow-warm, 20%);
       }
 
       .callout--alert & {
-        border-left-color: $red-10;
+        border-left-color: $nhs-emergency-red-10;
       }
 
       .callout--severe & {
-        border-left-color: $red;
+        border-left-color: $nhs-emergency-red;
       }
     }
   }

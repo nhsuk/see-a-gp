@@ -49,8 +49,8 @@
 .figure-list__captions {
   margin-top: 0;
   @include element-padding(compact);
-  background: $grey-4;
-  border-bottom: 4px solid $grey-3;
+  background: $nhs-grey-04;
+  border-bottom: 4px solid $nhs-grey-03;
 }
 
 .figure-list__captions {
@@ -72,7 +72,7 @@
   width: auto;
   float: right;
   background: $button-background;
-  color: $white;
+  color: $nhs-white;
   margin-top: $default-spacing-unit;
   margin-right: 0;
   padding: ($baseline-grid-unit * 3) ($baseline-grid-unit * 4);
@@ -85,7 +85,7 @@
   &:hover,
   &:focus,
   &:visited {
-    background-color: $green;
+    background-color: $nhs-green;
   }
 }
 
@@ -115,7 +115,7 @@
   }
 
   .figure-list__caption {
-    border-bottom: 4px $grey-3 solid;
+    border-bottom: 4px $nhs-grey-03 solid;
   }
   
   + .figure-list__btn,
@@ -133,7 +133,7 @@
 // Preview single image
 
 .figure-list--preview {
-  background: $grey-4;
+  background: $nhs-grey-04;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,7 +164,7 @@
   }
   
   .no-captions & {
-    border-bottom: 4px $grey-3 solid;
+    border-bottom: 4px $nhs-grey-03 solid;
     
     [class*="figure-list__figure"] {
       margin-top: 0;

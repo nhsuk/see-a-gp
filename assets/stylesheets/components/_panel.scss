@@ -1,5 +1,5 @@
 .panel {
-  background-color: $grey-4;
+  background-color: $nhs-grey-05;
 }
 
   .panel__content {
@@ -8,7 +8,7 @@
 
   .panel__footer {
     @include element-padding;
-    background-color: $grey-3;
+    background-color: $nhs-grey-05;
     clear: both;
 
     * + & {
@@ -20,7 +20,7 @@
 
   .panel__header {
     @include element-padding;
-    background-color: $grey-3;
+    background-color: $nhs-grey-04;
     clear: both;
     
     + * {
@@ -44,7 +44,7 @@
     @include media(tablet) {
       width: 50%;
       display: table-cell;
-      border-left: 4px solid $grey-3;
+      border-left: 4px solid $nhs-grey-04;
     }
     
     + .panel__column {
@@ -77,7 +77,7 @@ table.panel {
   }
 
   th {
-    background-color: $grey-3;
+    background-color: $nhs-grey-04;
   }
   
 }

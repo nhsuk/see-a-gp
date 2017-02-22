@@ -20,7 +20,7 @@ table {
   th,
   td {
     @include core-font(16);
-    border-bottom: 2px solid $grey-3;
+    border-bottom: 2px solid $nhs-grey-03;
     padding: ($baseline-grid-unit * 4) ($baseline-grid-unit * 4) ($baseline-grid-unit * 4) 0;
     vertical-align: top;
   }
@@ -47,7 +47,7 @@ table {
 
 .table--horizontal-scroll {
   position: relative;
-  border: 2px solid $grey-3;
+  border: 2px solid $nhs-grey-03;
   //border-bottom-width: 6px;
   
   .table__horizontal-scroll-container {
@@ -68,12 +68,12 @@ table {
 
     &::-webkit-scrollbar-thumb {
         border-radius: 8px;
-        border: 2px solid $grey-3; /* should match background, can't be transparent */
-        background-color: rgba($grey-1, .5);
+        border: 2px solid $nhs-grey-04; /* should match background, can't be transparent */
+        background-color: $nhs-grey-03;
     } 
 
     &::-webkit-scrollbar-track { 
-        background-color: $grey-3; 
+        background-color: $nhs-grey-03; 
         border-radius: 0px; 
     }
   }
@@ -93,7 +93,7 @@ table {
     display: block;
     position: absolute;
     width: 50px;
-    @include gradient-fade($white);
+    @include gradient-fade($nhs-white);
     height: calc(100% - 16px);
     right: 0;
     top: 0;
@@ -133,7 +133,7 @@ table {
     margin-top: 0;
     border-bottom: none;
     @include core-font(16);
-    color: $grey-2;
+    color: $nhs-grey-02;
   }
   
   .col-label {

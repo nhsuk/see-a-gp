@@ -5,7 +5,7 @@
   -webkit-appearance: none;
   background-color: $button-background;
   border: 0;
-  color: $white;
+  color: $nhs-white;
   cursor: pointer;
   display: inline-block;
   letter-spacing: .5px;
@@ -27,7 +27,7 @@
   &:focus,
   &:visited {
     background-color: $button-background;
-    color: $white;
+    color: $nhs-white;
     text-decoration: none;
   }
 
@@ -42,7 +42,7 @@
   &:hover,
   &:focus,
   &:visited {
-    background-color: $red;
-    border-color: $red;
+    background-color: $nhs-emergency-red;
+    border-color: $nhs-emergency-red;
   }
 }

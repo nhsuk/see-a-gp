@@ -1,7 +1,7 @@
 .global-footer {
   background-color: $nhs-blue;
-  border-top: $baseline-grid-unit solid shade($nhs-blue, 20);
-  color: $white;
+  border-top: $baseline-grid-unit solid $nhs-blue-dark;//shade($nhs-blue, 20);
+  color: $nhs-white;
 
   * {
     @include core-font(16);
