@@ -11,7 +11,7 @@
 }
 
 .font-xlarge {
-    @include core-font(64);
+    @include core-font(56);
 }
 
 .bold-small {
@@ -27,5 +27,5 @@
 }
 
 .bold-xlarge {
-    @include bold-font(64);
+    @include bold-font(56);
 }
